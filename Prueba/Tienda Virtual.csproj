@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SCS\IMG\Carrito.png" />
+    <None Remove="SCS\IMG\Casita.png" />
+    <None Remove="SCS\IMG\Cerrar.png" />
+    <None Remove="SCS\IMG\Compu.jpeg" />
+    <None Remove="SCS\IMG\Menu.png" />
+    <None Remove="SCS\IMG\Minimizar.png" />
+    <None Remove="SCS\IMG\Regreso.png" />
+    <None Remove="SCS\IMG\User.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="SCS\IMG\Carrito.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Casita.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Cerrar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Compu.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Minimizar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\Regreso.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\User.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,181 @@
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
+C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
