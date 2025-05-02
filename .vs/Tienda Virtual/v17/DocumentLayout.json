@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Ludwing\\tiendaPED\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\iniciosesion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\iniciosesion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+=======
       "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +33,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\compra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
     }
   ],
   "DocumentGroupContainers": [
@@ -22,6 +43,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detalle3.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle3.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Detalle3.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle3.xaml",
+              "RelativeToolTip": "Prueba\\Detalle3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:19:49.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Detalle2.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle2.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Detalle2.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle2.xaml",
+              "RelativeToolTip": "Prueba\\Detalle2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:19:48.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Compra.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Compra.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeToolTip": "Prueba\\Compra.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:19:45.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InicioSesion.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml",
+              "RelativeDocumentMoniker": "Prueba\\InicioSesion.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml",
+              "RelativeToolTip": "Prueba\\InicioSesion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T02:38:24.033Z",
+=======
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -48,11 +116,22 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T02:13:39.295Z",
+>>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
+              "Title": "InicioSesion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml.cs",
+              "RelativeDocumentMoniker": "Prueba\\InicioSesion.xaml.cs",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml.cs",
+              "RelativeToolTip": "Prueba\\InicioSesion.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T02:38:30.817Z",
+=======
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml",
@@ -60,6 +139,7 @@
               "RelativeToolTip": "Prueba\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-02T02:10:39.708Z",
+>>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
               "EditorCaption": ""
             }
           ]

@@ -22,6 +22,9 @@ namespace Tienda_Virtual
         public Detalle1()
         {
             InitializeComponent();
+
+
+
         }
 
         private void Minimizar(object sender, RoutedEventArgs e)

@@ -12,7 +12,11 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Ludwing\tiendaPED\Prueba\App.xaml
 7-898125156
 8-1242859581
+<<<<<<< HEAD
+22-123868087
+=======
 12812963101
+>>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
 2281205861292
 Compra.xaml;Detalle1.xaml;Detalle2.xaml;Detalle3.xaml;InicioSesion.xaml;MainWindow.xaml;Producto.xaml;
 

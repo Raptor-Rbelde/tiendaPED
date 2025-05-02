@@ -8,12 +8,8 @@ GO
 -- Tablas
 CREATE TABLE Usuario (
     IdUsuario INT NOT NULL, -- PK
+	CorreoUsuario VARCHAR(50) NOT NULL,
     Contrasenia VARCHAR(50) NOT NULL
-);
-
-CREATE TABLE CorreosUsuario (
-    IdUsuario INT NOT NULL, -- FK
-    CorreoUsuario VARCHAR(50)
 );
 
 CREATE TABLE Producto (
@@ -46,12 +42,6 @@ ALTER TABLE Producto ADD CONSTRAINT
 UQ_IdProducto_NombreProducto UNIQUE (IdProducto, NombreProducto);
 
 -- Claves Foráneas
-ALTER TABLE CorreosUsuario ADD CONSTRAINT
-FK_IdUsuarioCorreo FOREIGN KEY (IdUsuario)
-REFERENCES Usuario(IdUsuario)
-ON UPDATE CASCADE
-ON DELETE CASCADE;
-
 ALTER TABLE Producto ADD CONSTRAINT
 FK_IdUsuarioProducto FOREIGN KEY (IdUsuario)
 REFERENCES Usuario(IdUsuario)
@@ -65,8 +55,8 @@ ON UPDATE CASCADE
 ON DELETE CASCADE;
 
 -- Restricciones adicionales
-ALTER TABLE CorreosUsuario
-ADD CONSTRAINT UC_Correo UNIQUE (CorreoUsuario);
+ALTER TABLE Usuario
+ADD CONSTRAINT UC_CorreoUser UNIQUE (CorreoUsuario);
 
 ALTER TABLE Producto
 ADD CONSTRAINT CK_PrecioProducto CHECK (Precio >= 0 AND Precio <= 9999);
@@ -78,30 +68,17 @@ ADD CONSTRAINT DF_FechaCompra DEFAULT GETDATE() FOR FechaCompra;
 -- Registros de Prueba
 
 -- Insertar Usuarios
-INSERT INTO Usuario (IdUsuario, Contrasenia) VALUES
-(1, 'clave123'),
-(2, 'admin2024'),
-(3, 'usuario33'),
-(4, 'pass456'),
-(5, 'qwerty'),
-(6, 'segura1'),
-(7, 'clave321'),
-(8, 'test2025'),
-(9, 'pass999'),
-(10, 'abc123');
-
--- Insertar Correos de Usuario
-INSERT INTO CorreosUsuario (IdUsuario, CorreoUsuario) VALUES
-(1, 'juan@example.com'),
-(2, 'ana@example.com'),
-(3, 'luis@example.com'),
-(4, 'carla@example.com'),
-(5, 'pedro@example.com'),
-(6, 'sofia@example.com'),
-(7, 'mario@example.com'),
-(8, 'laura@example.com'),
-(9, 'diego@example.com'),
-(10, 'eva@example.com');
+INSERT INTO Usuario (IdUsuario, CorreoUsuario, Contrasenia) VALUES
+(1, 'juan@example.com','clave123'),
+(2, 'ana@example.com' ,'admin2024'),
+(3, 'luis@example.com','usuario33'),
+(4, 'carla@example.com' ,'pass456'),
+(5, 'pedro@example.com','qwerty'),
+(6, 'julian@example.com' ,'segura1'),
+(7, 'marcos@example.com','clave321'),
+(8, 'ernesto@example.com','test2025'),
+(9, 'lucia@example.com','pass999'),
+(10, 'maria@example.com','abc123');
 
 -- Insertar Productos
 INSERT INTO Producto (IdProducto, IdUsuario, NombreProducto, Precio, Descripcion) VALUES
@@ -133,10 +110,10 @@ INSERT INTO Factura (IdFactura, FechaCompra, IdProducto, NombreProducto) VALUES
 -- Mostrar Datos de Prueba
 SELECT TOP 5 * FROM Usuario;
 
-SELECT TOP 5 * FROM CorreosUsuario;
-
 SELECT TOP 5 * FROM Producto;
 
 SELECT TOP 5 * FROM Factura;
+
+
 
 
