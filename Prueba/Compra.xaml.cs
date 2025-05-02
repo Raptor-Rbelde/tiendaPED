@@ -22,6 +22,7 @@ namespace Tienda_Virtual
         public Compra()
         {
             InitializeComponent();
+            
         }
 
         private void Minimizar(object sender, RoutedEventArgs e)

@@ -179,3 +179,45 @@ C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-win
 C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
 C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
 C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.baml
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
