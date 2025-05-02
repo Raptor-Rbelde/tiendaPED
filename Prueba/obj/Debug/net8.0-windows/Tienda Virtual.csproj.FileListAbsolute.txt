@@ -221,6 +221,7 @@ C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+<<<<<<< HEAD
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
@@ -389,3 +390,5 @@ C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\refi
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
 C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+=======
+>>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
