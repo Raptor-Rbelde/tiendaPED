@@ -275,10 +275,10 @@
                          BorderThickness="1" 
                          Margin="0,90,0,0" />
                 
-                <TextBlock Text="Correo electrónico:" 
+                <TextBlock x:Name="txtCorreoUser" Text="Correo electrónico:" 
                            FontSize="14" 
                            Foreground="Black" 
-                           Margin="0,70,0,4"/>
+                           Margin="0,64,0,35"/>
 
                 <PasswordBox x:Name="txtPassword" 
                              Height="30" 
@@ -306,7 +306,7 @@
                         Grid.Row="3" 
                         Margin="85,5,85,33" 
                         Grid.RowSpan="2"
-                        Style="{StaticResource RoundedButtonStyle}"/>
+                        Style="{StaticResource RoundedButtonStyle}" Click="Button_Click"/>
 
                 <!-- Separador con "O" -->
                 <TextBlock Text="O" 
@@ -327,7 +327,7 @@
                         Cursor="Hand" 
                         Grid.Row="5" 
                         Margin="85,6,85,32"
-                        Style="{StaticResource RoundedButtonStyle}"/>
+                        Style="{StaticResource RoundedButtonStyle}" Click="Button_Click_1"/>
             </Grid>
 
 

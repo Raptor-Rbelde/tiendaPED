@@ -1,46 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\",
+  "WorkspaceRootPath": "C:\\Users\\Ludwing\\tiendaPED\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\producto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\producto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\iniciosesion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\detalle1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\iniciosesion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\iniciosesion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\micap\\desktop\\universidad\\ciclo3\\ped\\tienda\\prueba\\detalle3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\ludwing\\tiendaped\\prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,121 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Detalle2.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle2.xaml",
-              "RelativeDocumentMoniker": "Prueba\\Detalle2.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle2.xaml",
-              "RelativeToolTip": "Prueba\\Detalle2.xaml",
+              "DocumentIndex": 2,
+              "Title": "Detalle3.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle3.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Detalle3.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle3.xaml",
+              "RelativeToolTip": "Prueba\\Detalle3.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T19:50:42.168Z"
+              "WhenOpened": "2025-05-02T20:19:49.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Detalle3.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle3.xaml",
-              "RelativeDocumentMoniker": "Prueba\\Detalle3.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle3.xaml",
-              "RelativeToolTip": "Prueba\\Detalle3.xaml",
+              "DocumentIndex": 3,
+              "Title": "Detalle2.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle2.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Detalle2.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Detalle2.xaml",
+              "RelativeToolTip": "Prueba\\Detalle2.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T20:01:10.112Z"
+              "WhenOpened": "2025-05-02T20:19:48.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Compra.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Compra.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeToolTip": "Prueba\\Compra.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T20:19:45.153Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Prueba\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T20:18:16.845Z",
+              "Title": "InicioSesion.xaml",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml",
+              "RelativeDocumentMoniker": "Prueba\\InicioSesion.xaml",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml",
+              "RelativeToolTip": "Prueba\\InicioSesion.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T02:38:24.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Detalle1.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle1.xaml",
-              "RelativeDocumentMoniker": "Prueba\\Detalle1.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle1.xaml",
-              "RelativeToolTip": "Prueba\\Detalle1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T05:58:21.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Compra.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Compra.xaml",
-              "RelativeDocumentMoniker": "Prueba\\Compra.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Compra.xaml",
-              "RelativeToolTip": "Prueba\\Compra.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T05:37:13.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\MainWindow.xaml",
-              "RelativeToolTip": "Prueba\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T20:18:27.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Detalle3.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle3.xaml.cs",
-              "RelativeDocumentMoniker": "Prueba\\Detalle3.xaml.cs",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle3.xaml.cs",
-              "RelativeToolTip": "Prueba\\Detalle3.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAhwCgAAAAeAAAAAAAAAA==",
+              "Title": "InicioSesion.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml.cs",
+              "RelativeDocumentMoniker": "Prueba\\InicioSesion.xaml.cs",
+              "ToolTip": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\InicioSesion.xaml.cs",
+              "RelativeToolTip": "Prueba\\InicioSesion.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T20:03:00.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Detalle1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle1.xaml.cs",
-              "RelativeDocumentMoniker": "Prueba\\Detalle1.xaml.cs",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Detalle1.xaml.cs",
-              "RelativeToolTip": "Prueba\\Detalle1.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T19:43:34.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InicioSesion.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\InicioSesion.xaml",
-              "RelativeDocumentMoniker": "Prueba\\InicioSesion.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\InicioSesion.xaml",
-              "RelativeToolTip": "Prueba\\InicioSesion.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-20T05:08:25.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Producto.xaml",
-              "DocumentMoniker": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Producto.xaml",
-              "RelativeDocumentMoniker": "Prueba\\Producto.xaml",
-              "ToolTip": "C:\\Users\\micap\\Desktop\\universidad\\ciclo3\\PED\\Tienda\\Prueba\\Producto.xaml",
-              "RelativeToolTip": "Prueba\\Producto.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-21T00:06:53.664Z"
+              "WhenOpened": "2025-05-02T02:38:30.817Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tienda_Virtual.Models;
 
 namespace Tienda_Virtual
 {
@@ -41,6 +43,33 @@ namespace Tienda_Virtual
             MainWindow mainWindow = new MainWindow();
             this.Close();
             mainWindow.Show();
+        }
+
+        // Boton para Iniciar sesion
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string correoUser = txtCorreo.Text.Trim().ToLower();
+            string passwordUser = txtPassword.Password;
+
+            var user = App.context.Usuarios.FirstOrDefault(u => u.CorreoUsuario.ToLower() == correoUser && u.Contrasenia == passwordUser);
+
+            if (user != null)
+            {
+                MessageBox.Show("Exito");
+                MainWindow mw = new MainWindow();
+                mw.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+        }
+
+        // Boton para Crear cuenta
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
