@@ -69,7 +69,9 @@ namespace Tienda_Virtual
         // Boton para Crear cuenta
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-
+            CrearCuenta crear = new CrearCuenta();
+            this.Close();
+            crear.Show();
         }
     }
 }

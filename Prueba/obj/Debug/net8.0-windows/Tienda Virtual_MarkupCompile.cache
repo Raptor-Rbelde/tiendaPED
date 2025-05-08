@@ -4,29 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\
-=======
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\
->>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\
 Tienda_Virtual
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-<<<<<<< HEAD
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\App.xaml
-7-898125156
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\App.xaml
+8-734820966
 8-1242859581
-20518400916
-2281205861292
-=======
-C:\Users\Ludwing\tiendaPED\Prueba\App.xaml
-7-898125156
-8-1242859581
-101455232104
-198-556154604
->>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
-Compra.xaml;Detalle1.xaml;Detalle2.xaml;Detalle3.xaml;InicioSesion.xaml;MainWindow.xaml;Producto.xaml;
+21-2084637233
+2281911960830
+Compra.xaml;CrearCuenta.xaml;Detalle1.xaml;Detalle2.xaml;Detalle3.xaml;InicioSesion.xaml;MainWindow.xaml;Producto.xaml;
 
 False
 

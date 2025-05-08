@@ -1,394 +1,170 @@
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\magal\OneDrive\Escritorio\Prueba WPF\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Prueba\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
-C:\Users\magal\OneDrive\Escritorio\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda Virtual\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Compra.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Producto.baml
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\micap\Desktop\universidad\ciclo3\PED\Tienda\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-<<<<<<< HEAD
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Azure.Core.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Azure.Identity.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Humanizer.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.ClientModel.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Composition.Convention.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Memory.Data.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\System.Text.Json.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.AssemblyReference.cache
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Compra.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Producto.baml
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda V.1AC57AD5.Up2Date
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
-C:\Users\Ludwing\Desktop\tiendaPED (Prueba)\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
-=======
->>>>>>> f50e05a10ec3f89f0770ece4dc3163839e627dac
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.exe
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Carrito.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Casita.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Cerrar.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Compu.jpeg
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Menu.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Minimizar.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\Regreso.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\SCS\IMG\User.png
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.deps.json
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.runtimeconfig.json
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Humanizer.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Build.Locator.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\Mono.TextTemplating.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Composition.AttributedModel.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Composition.Convention.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Composition.Hosting.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Composition.Runtime.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Composition.TypedParts.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.AssemblyReference.cache
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Content.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.cache
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_MarkupCompile.lref
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.g.resources
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfoInputs.cache
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.AssemblyInfo.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj.CoreCompileInputs.cache
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.sourcelink.json
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda V.1AC57AD5.Up2Date
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\refint\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.pdb
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.genruntimeconfig.cache
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\ref\Tienda Virtual.dll
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\CrearCuenta.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\CrearCuenta.baml
+C:\Users\magal\OneDrive\Documents\GitHub\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.baml

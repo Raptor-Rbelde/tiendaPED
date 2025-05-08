@@ -22,12 +22,12 @@
     <Compile Update="InicioSesion.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Producto.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Compra.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CrearCuenta.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Detalle1.xaml">

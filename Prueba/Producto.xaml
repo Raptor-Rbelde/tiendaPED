@@ -5,8 +5,341 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tienda_Virtual"
         mc:Ignorable="d"
-        Title="Producto" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Producto"              Height="400" 
+        Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    <Window.Resources>
+
+        <!--#region focusvisual-->
+        <Style x:Key="FocusVisual">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!--#endregion-->
+        <!--#region BTNHEADER-->
+        <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+        <Style x:Key="BTNHEADERSTYLE" TargetType="{x:Type Button}">
+            <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+            <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true" Cursor="Hand">
+                            <ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsDefaulted" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="#001F3F"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="#001F3F"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter Property="Background" TargetName="border" Value="Transparent"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="Transparent"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Background" TargetName="border" Value="{StaticResource Button.Disabled.Background}"/>
+                                <Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+                                <Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="FocusVisual1">
+            <Setter Property="Control.Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <SolidColorBrush x:Key="Button.Static.Background1" Color="#FFDDDDDD"/>
+        <SolidColorBrush x:Key="Button.Static.Border1" Color="#FF707070"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background1" Color="#FFBEE6FD"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border1" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.Pressed.Background1" Color="#FFC4E5F6"/>
+        <SolidColorBrush x:Key="Button.Pressed.Border1" Color="#FF2C628B"/>
+        <SolidColorBrush x:Key="Button.Disabled.Background1" Color="#FFF4F4F4"/>
+        <SolidColorBrush x:Key="Button.Disabled.Border1" Color="#FFADB2B5"/>
+        <SolidColorBrush x:Key="Button.Disabled.Foreground1" Color="#FF838383"/>
+        <!--#endregion-->
+    </Window.Resources>
+
+    <Border CornerRadius="10"
+            Background="AliceBlue">
+        <Grid Name="Principal"
+              Background="Transparent">
+            <!--#region  HEADER-->
+            <Grid Name="Header" 
+                  Height="50"
+                  VerticalAlignment="Top"
+                  Background="Transparent">
+
+                <Border CornerRadius="10,10,0,0"
+                        Background="#001F3F"/>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="220"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+
+
+                <!--#Region TITLE-->
+                <Grid>
+                    <!-- Forma Rectangular -->
+                    <Rectangle Fill="#3A6D8C"
+               Width="150"
+               Height="22"
+               RadiusX="10"  
+               RadiusY="10"/>
+
+                    <!-- Texto dentro de la forma -->
+                    <TextBlock Text="Productos"
+               Foreground="Black"
+               FontSize="15"
+               FontFamily="Comic Sans MS"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Margin="0,0,0,0"/>
+                </Grid>
+                <!--#endregion-->
+
+                <!--#region regreso-->
+
+                <Button Style="{DynamicResource BTNHEADERSTYLE}" x:Name="BtnRegresar"
+                           Background="Transparent"
+                           Foreground="GhostWhite"
+                           FontSize="15"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Left"
+                           Cursor="Hand"
+                           Margin="15,0,0,0"
+                           Width="32"  
+                           Height="32"
+                           BorderBrush="GhostWhite"
+                           BorderThickness="0" Click="Btnregresar_Click">
+
+                    <Border Background="#79D7BE"
+                            BorderBrush="Transparent"
+                            BorderThickness="0"
+                            CornerRadius="30"  
+                            Width="30"
+                            Height="30"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top" Cursor="Hand">
+
+                        <Image HorizontalAlignment="Right"
+                               VerticalAlignment="Center"
+                               Width="16"
+                               Source="SCS/IMG/Regreso.png" Margin="0,0,7,0"/>
+                    </Border>
+                </Button>
+                <!--#endregion-->
+
+           
+
+                <!--#region Minimizar-->
+
+                <Button Style="{DynamicResource BTNHEADERSTYLE}" x:Name="BtnMinimizar"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        Height="24"
+                        Width="26"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Margin="530,0,0,0" Click="Minimizar">
+
+                    <Image HorizontalAlignment="Left"
+                           VerticalAlignment="Center"
+                           Width="15"
+                           Source="SCS/IMG/Minimizar.png"
+                           Cursor="Hand"/>
+
+
+                </Button>
+                <!--#endregion-->
+
+                <!--#region Cerrar-->
+
+                <Button Style="{DynamicResource BTNHEADERSTYLE}" x:Name="BtnCerrar"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        Height="24"
+                        Width="26"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Margin="553,0,0,0" Click="Cerrar">
+
+                    <Image HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           Width="40"
+                           Source="SCS/IMG/Cerrar.png"
+                           Cursor="Hand"/>
+
+
+                </Button>
+
+                <!--#endregion-->
+
+
+
+            </Grid>
+            <!--#endregion-->
+            <!--#region  Contenido-->
+            <Grid x:Name="GridContent"
+                  Background="Transparent"
+                  VerticalAlignment="Center"
+                  HorizontalAlignment="Center"
+                  Height="310"
+                  Width="600">
+
+                <Border CornerRadius="0,0,0,10"
+                        Background="AliceBlue"/>
+
+                <TextBlock Text="Productos Encontrados:"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"
+                           FontSize="20"
+                           Margin="0,73,0,0"
+                           FontFamily="Century" />
+
+                <Grid HorizontalAlignment="Center"
+                      VerticalAlignment="Top"
+                      Width="500"
+                      Height="40" Margin="0,20,0,0">
+
+                    <!-- Cuadro de texto -->
+                    <TextBox x:Name="Busqueda"
+                             VerticalAlignment="Center"
+                             Padding="9"
+                             FontSize="16"
+                             BorderBrush="#79D7BE"
+                             BorderThickness="2"                             
+                             Background="White" TextChanged="Busqueda_TextChanged"/>
+
+
+                    <!-- Botón con icono de lupa dentro del TextBox -->
+                    <Button Content="🔍"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top"
+                            Width="40"
+                            Height="40"
+                            Background="Transparent"
+                            BorderBrush="Transparent"
+                            FontSize="20"
+                            Click="SearchButton_Click" />
+                </Grid>
+
+                <!-- Contenedor para las imágenes -->
+                <StackPanel Orientation="Horizontal"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Margin="0,60,0,0">
+
+                    <!-- Imagen 1 -->
+                    <StackPanel HorizontalAlignment="Center" 
+                                VerticalAlignment="Center">
+
+                        <Image Source="\SCS\IMG\Compu.jpeg" 
+                               Width="150" 
+                               Height="100"
+                               Margin="10"/>
+
+                        <Button x:Name="BtnDetalle1" Content="Ver detalles"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Width="100"
+                                Height="30"
+                                Background="#3A6D8C"
+                                Foreground="White"
+                                FontSize="12"
+                                BorderBrush="Transparent"
+                                BorderThickness="0" Click="BtnDetalle1_Click"/>
+                    </StackPanel>
+
+                    <!-- Imagen 2 -->
+                    <StackPanel HorizontalAlignment="Center" 
+                                VerticalAlignment="Center">
+
+                        <Image Source="\SCS\IMG\Compu.jpeg"
+                               Width="150" 
+                               Height="100" 
+                               Margin="10"/>
+
+                        <Button x:Name="BtnDetalle2" Content="Ver detalles"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Width="100"
+                                Height="30"
+                                Background="#3A6D8C"
+                                Foreground="White"
+                                FontSize="12"
+                                BorderBrush="Transparent"
+                                BorderThickness="0" Click="BtnDetalle2_Click"/>
+                    </StackPanel>
+
+                    <!-- Imagen 3 -->
+                    <StackPanel HorizontalAlignment="Center" 
+                                VerticalAlignment="Center">
+
+                        <Image Source="\SCS\IMG\Compu.jpeg" 
+                               Width="150" 
+                               Height="100" 
+                               Margin="10"/>
+                        <Button x:Name="BtnDetalle3" Content="Ver detalles"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Top"
+                                Width="100"
+                                Height="30"
+                                Background="#3A6D8C"
+                                Foreground="White"
+                                FontSize="12"
+                                BorderBrush="Transparent"
+                                BorderThickness="0" Click="BtnDetalle3_Click"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+
+            </Grid>
+
+            <!--#endregion-->
+
+        </Grid>
+    </Border>
+
+
+
+
 </Window>

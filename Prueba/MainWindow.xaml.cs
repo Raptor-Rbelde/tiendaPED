@@ -29,7 +29,9 @@ namespace Tienda_Virtual
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
-            // Validar si el texto de búsqueda no está vacío
+            Producto producto = new Producto();
+            this.Close();
+            producto.Show();
            
         }
 
