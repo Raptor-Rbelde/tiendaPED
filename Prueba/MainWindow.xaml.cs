@@ -87,5 +87,6 @@ namespace Tienda_Virtual
             this.Close();
             detalle3.Show();
         }
+
     }
 }
