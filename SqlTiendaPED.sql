@@ -17,7 +17,8 @@ CREATE TABLE Producto (
     IdUsuario INT NOT NULL,	-- FK
     NombreProducto VARCHAR(100) NOT NULL,
     Precio DECIMAL(10, 2),
-    Descripcion VARCHAR(200) NOT NULL
+    Descripcion VARCHAR(200) NOT NULL,
+	RutaImagen VARCHAR(255)
 );
 
 CREATE TABLE Factura (
@@ -81,17 +82,17 @@ INSERT INTO Usuario (IdUsuario, CorreoUsuario, Contrasenia) VALUES
 (10, 'maria@example.com','abc123');
 
 -- Insertar Productos
-INSERT INTO Producto (IdProducto, IdUsuario, NombreProducto, Precio, Descripcion) VALUES
-(101, 1, 'Mouse Logitech', 150.00, 'Mouse inalámbrico ergonómico'),
-(102, 2, 'Teclado Mecánico', 350.00, 'Teclado RGB para gaming'),
-(103, 3, 'Monitor 24"', 1250.00, 'Monitor Full HD de 24 pulgadas'),
-(104, 4, 'Laptop Dell', 8500.00, 'Laptop Dell i7 16GB RAM'),
-(105, 5, 'USB 64GB', 100.00, 'Memoria USB de alta velocidad'),
-(106, 6, 'Router WiFi 6', 699.99, 'Router de última generación'),
-(107, 7, 'Audífonos Bluetooth', 250.50, 'Audífonos con cancelación de ruido'),
-(108, 8, 'Webcam HD', 330.00, 'Cámara para videollamadas'),
-(109, 9, 'Disco SSD 1TB', 999.00, 'Unidad sólida rápida y confiable'),
-(110, 10, 'Silla Gamer', 1999.00, 'Silla ergonómica con soporte lumbar');
+INSERT INTO Producto (IdProducto, IdUsuario, NombreProducto, Precio, Descripcion, RutaImagen) VALUES
+(101, 1, 'Mouse Logitech', 150.00, 'Mouse inalámbrico ergonómico', 'ImagenesProductos/mouse_logitech.png'),
+(102, 2, 'Teclado Mecánico', 350.00, 'Teclado RGB para gaming', 'ImagenesProductos/teclado_mecanico.jpg'),
+(103, 3, 'Monitor 24"', 1250.00, 'Monitor Full HD de 24 pulgadas', 'ImagenesProductos/monitor24.jpg'),
+(104, 4, 'Laptop Dell', 8500.00, 'Laptop Dell i7 16GB RAM', 'ImagenesProductos/laptop_dell.jpg'),
+(105, 5, 'USB 64GB', 100.00, 'Memoria USB de alta velocidad', 'ImagenesProductos/usb64gb.jpg'),
+(106, 6, 'Router WiFi 6', 699.99, 'Router de última generación', 'ImagenesProductos/routerwifi6.jpg'),
+(107, 7, 'Audífonos Bluetooth', 250.50, 'Audífonos con cancelación de ruido', 'ImagenesProductos/audifonos_bluetooth.jpg'),
+(108, 8, 'Webcam HD', 330.00, 'Cámara para videollamadas', 'ImagenesProductos/webcamhd.png'),
+(109, 9, 'Disco SSD 1TB', 999.00, 'Unidad sólida rápida y confiable', 'ImagenesProductos/disco1tb.jpg'),
+(110, 10, 'Silla Gamer', 1999.00, 'Silla ergonómica con soporte lumbar', 'ImagenesProductos/sillaredragon.jpg');
 
 
 -- Insertar Facturas
