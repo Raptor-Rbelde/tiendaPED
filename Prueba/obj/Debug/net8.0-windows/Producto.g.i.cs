@@ -109,7 +109,7 @@ namespace Tienda_Virtual {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tienda Virtual;V1.0.0.0;component/producto.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tienda Virtual;component/producto.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Producto.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

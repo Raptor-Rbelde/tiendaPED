@@ -279,11 +279,6 @@
                            Foreground="Black" 
                            Margin="0,36,0,129"/>
 
-                <PasswordBox x:Name="txtCorreo" 
-                             Height="30" 
-                             BorderBrush="Black" 
-                             BorderThickness="1" Margin="0,117,0,42"/>
-
                 <TextBlock Text=" Correo electrónico:" 
                            FontSize="14" 
                            Foreground="Black" 
@@ -311,6 +306,11 @@
                     Height="30" 
                     BorderBrush="Black" 
                     BorderThickness="1" Margin="0,174,0,64" Grid.RowSpan="6"/>
+                <TextBox x:Name="txtUsuario_Copiar" 
+                    Height="30" 
+                    BorderBrush="Black" 
+                    BorderThickness="1" 
+                    Margin="0,118,0,41" />
             </Grid>
 
 
