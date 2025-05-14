@@ -32,7 +32,7 @@ namespace Tienda_Virtual
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
 
-            MainWindow mainWindow = new MainWindow();
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
             this.Close();
             mainWindow.Show();
         }

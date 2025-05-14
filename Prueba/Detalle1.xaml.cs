@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ProductoModel = Tienda_Virtual.Models.Producto;
+
 
 namespace Tienda_Virtual
 {
@@ -19,13 +21,22 @@ namespace Tienda_Virtual
     /// </summary>
     public partial class Detalle1 : Window
     {
-        public Detalle1()
+        private ProductoModel _producto;
+
+        public Detalle1(ProductoModel producto)
         {
             InitializeComponent();
-
-
-
+            _producto = producto;
+            MostrarDatos();
         }
+
+        private void MostrarDatos()
+        {
+            NombreProductoLabel.Text = _producto.NombreProducto;
+            lblDescripcion.Text = _producto.Descripcion;
+            lblPrecio.Text = $"Precio: {_producto.Precio}";
+        }
+
 
         private void Minimizar(object sender, RoutedEventArgs e)
         {
@@ -39,9 +50,14 @@ namespace Tienda_Virtual
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
             this.Close();
             mainWindow.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

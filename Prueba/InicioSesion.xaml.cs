@@ -1,26 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using Tienda_Virtual.Models;
 
 namespace Tienda_Virtual
 {
-    /// <summary>
-    /// Lógica de interacción para InicioSesion.xaml
-    /// </summary>
+    public static class UsuarioSesion
+    {
+        public static int IdUsuarioActual { get; set; }
+    }
+
     public partial class InicioSesion : Window
     {
+
         public InicioSesion()
         {
             InitializeComponent();
@@ -38,35 +30,39 @@ namespace Tienda_Virtual
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-           
-
-            MainWindow mainWindow = new MainWindow();
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
             this.Close();
             mainWindow.Show();
         }
 
-        // Boton para Iniciar sesion
+        // Botón de iniciar sesión
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string correoUser = txtCorreo.Text.Trim().ToLower();
             string passwordUser = txtPassword.Password;
 
-            var user = App.context.Usuarios.FirstOrDefault(u => u.CorreoUsuario.ToLower() == correoUser && u.Contrasenia == passwordUser);
+            var user = App.context.Usuarios
+                .FirstOrDefault(u => u.CorreoUsuario.ToLower() == correoUser && u.Contrasenia == passwordUser);
 
             if (user != null)
             {
-                MessageBox.Show("Exito");
-                MainWindow mw = new MainWindow();
+                MessageBox.Show("Inicio de sesión exitoso");
+
+                // Guardar el ID del usuario para toda la aplicación
+                UsuarioSesion.IdUsuarioActual = user.IdUsuario;
+
+                // Abrir la ventana principal pasando el ID
+                MainWindow mw = new MainWindow(user.IdUsuario);
                 mw.Show();
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("Correo o contraseña incorrectos");
             }
         }
 
-        // Boton para Crear cuenta
+        // Botón para crear cuenta
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             CrearCuenta crear = new CrearCuenta();
