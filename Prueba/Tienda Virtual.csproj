@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ImagenesProductos\audifonos_bluetooth.jpg" />
+    <None Remove="ImagenesProductos\disco1tb.jpg" />
+    <None Remove="ImagenesProductos\laptop_dell.jpg" />
+    <None Remove="ImagenesProductos\monitor24.jpg" />
+    <None Remove="ImagenesProductos\mouse_hyperx.jpg" />
+    <None Remove="ImagenesProductos\mouse_logitech.png" />
+    <None Remove="ImagenesProductos\mouse_redragon.png" />
+    <None Remove="ImagenesProductos\routerwifi6.jpg" />
+    <None Remove="ImagenesProductos\sillaredragon.jpg" />
+    <None Remove="ImagenesProductos\teclado_mecanico.jpg" />
+    <None Remove="ImagenesProductos\usb64gb.jpg" />
+    <None Remove="ImagenesProductos\webcamhd.png" />
     <None Remove="SCS\IMG\Carrito.png" />
     <None Remove="SCS\IMG\Casita.png" />
     <None Remove="SCS\IMG\Cerrar.png" />
@@ -20,6 +32,45 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ImagenesProductos\sillaredragon.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ImagenesProductos\audifonos_bluetooth.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\disco1tb.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\laptop_dell.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\monitor24.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\mouse_hyperx.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\mouse_logitech.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\mouse_redragon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\routerwifi6.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\teclado_mecanico.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\usb64gb.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\webcamhd.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="SCS\IMG\Carrito.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

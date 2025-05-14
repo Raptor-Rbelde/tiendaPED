@@ -35,6 +35,32 @@ namespace Tienda_Virtual
             NombreProductoLabel.Text = _producto.NombreProducto;
             lblDescripcion.Text = _producto.Descripcion;
             lblPrecio.Text = $"Precio: {_producto.Precio}";
+            try
+            {
+                if (!string.IsNullOrEmpty(_producto.RutaImagen))
+                {
+                    // Construir la ruta absoluta
+                    string rutaAbsoluta = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, _producto.RutaImagen);
+
+                    if (System.IO.File.Exists(rutaAbsoluta))
+                    {
+                        imagen.Source = new BitmapImage(new Uri(rutaAbsoluta, UriKind.Absolute));
+                    }
+                    else
+                    {
+                        // Imagen de respaldo
+                        imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                    }
+                }
+                else
+                {
+                    imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                }
+            }
+            catch
+            {
+                imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+            }
         }
 
 

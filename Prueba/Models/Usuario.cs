@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Tienda_Virtual.Models;
 
-public class Usuario
+public partial class Usuario
 {
     public int IdUsuario { get; set; }
 

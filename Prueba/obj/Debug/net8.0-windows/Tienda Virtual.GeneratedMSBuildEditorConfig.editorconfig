@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tienda_Virtual
-build_property.ProjectDir = C:\Users\micap\Desktop\universidad\ciclo3\PED\tiendaPED\Prueba\
+build_property.ProjectDir = C:\Users\Ludwing\tiendaPED\Prueba\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

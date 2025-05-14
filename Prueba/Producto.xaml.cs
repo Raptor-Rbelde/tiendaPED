@@ -119,10 +119,37 @@ namespace Tienda_Virtual
                 // Imagen del producto (por ahora genérica)
                 Image imagen = new Image
                 {
-                    Source = new BitmapImage(new Uri("/SCS/IMG/Compu.jpeg", UriKind.Relative)),
                     Width = 150,
                     Height = 100
                 };
+
+                try
+                {
+                    if (!string.IsNullOrEmpty(prod.RutaImagen))
+                    {
+                        // Ruta relativa dentro del proyecto
+                        string rutaAbsoluta = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, prod.RutaImagen);
+
+                        if (System.IO.File.Exists(rutaAbsoluta))
+                        {
+                            imagen.Source = new BitmapImage(new Uri(rutaAbsoluta, UriKind.Absolute));
+                        }
+                        else
+                        {
+                            // Imagen de respaldo si no existe la ruta
+                            imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                        }
+                    }
+                    else
+                    {
+                        imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                    }
+                }
+                catch
+                {
+                    imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                }
+
 
                 // Botón de ver detalles
                 Button boton = new Button

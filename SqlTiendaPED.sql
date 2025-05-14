@@ -93,6 +93,7 @@ INSERT INTO Producto (IdProducto, IdUsuario, NombreProducto, Precio, Descripcion
 (109, 9, 'Disco SSD 1TB', 999.00, 'Unidad sólida rápida y confiable'),
 (110, 10, 'Silla Gamer', 1999.00, 'Silla ergonómica con soporte lumbar');
 
+
 -- Insertar Facturas
 INSERT INTO Factura (IdFactura, FechaCompra, IdProducto, NombreProducto) VALUES
 (1001, DEFAULT, 101, 'Mouse Logitech'),
@@ -110,10 +111,6 @@ INSERT INTO Factura (IdFactura, FechaCompra, IdProducto, NombreProducto) VALUES
 -- Mostrar Datos de Prueba
 SELECT TOP 5 * FROM Usuario;
 
-SELECT TOP 5 * FROM Producto;
+SELECT * FROM Producto;
 
 SELECT TOP 5 * FROM Factura;
-
-
-
-

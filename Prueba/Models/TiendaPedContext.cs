@@ -64,6 +64,9 @@ public partial class TiendaPedContext : DbContext
                 .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.Precio).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.RutaImagen)
+                .HasMaxLength(255)
+                .IsUnicode(false);
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Productos)
                 .HasForeignKey(d => d.IdUsuario)

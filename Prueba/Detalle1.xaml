@@ -246,7 +246,7 @@
 
                 <!-- Imagen del Producto -->
                 <Border Grid.Column="0" Width="180" Height="150" BorderThickness="2" BorderBrush="Gray" CornerRadius="10" Margin="0,0,20,0">
-                    <Image Source="SCS/IMG/Compu.jpeg" Stretch="Fill"/>
+                    <Image Source="SCS/IMG/Compu.jpeg" Stretch="Fill" x:Name="imagen"/>
                 </Border>
 
                 <!-- Descripción del Producto -->
