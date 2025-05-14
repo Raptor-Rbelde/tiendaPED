@@ -4722,24 +4722,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ludwing\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\magal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Tienda Virtual.csproj",
+      "projectUniqueName": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Tienda Virtual.csproj",
       "projectName": "Tienda Virtual",
-      "projectPath": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\Tienda Virtual.csproj",
-      "packagesPath": "C:\\Users\\Ludwing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ludwing\\tiendaPED\\Prueba\\obj\\",
+      "projectPath": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Tienda Virtual.csproj",
+      "packagesPath": "C:\\Users\\magal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ludwing\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\magal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4747,7 +4742,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4805,7 +4799,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

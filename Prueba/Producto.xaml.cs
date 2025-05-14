@@ -94,29 +94,19 @@ namespace Tienda_Virtual
 
             MostrarProductosEnPantalla(resultados);
         }
-
         private void MostrarProductosEnPantalla(List<ProductoModel> productos)
         {
-            // Limpiar cualquier contenido anterior (como resultados estáticos o duplicados)
-            GridContent.Children.Clear();
-
-            // Contenedor principal de los productos encontrados
-            WrapPanel contenedor = new WrapPanel
-            {
-                HorizontalAlignment = HorizontalAlignment.Center,
-                Margin = new Thickness(10)
-            };
+            // Limpiar el panel de recomendaciones
+            PanelRecomendados.Children.Clear();
 
             foreach (var prod in productos)
             {
-                // Contenedor individual de cada producto
                 StackPanel item = new StackPanel
                 {
                     Margin = new Thickness(10),
                     HorizontalAlignment = HorizontalAlignment.Center
                 };
 
-                // Imagen del producto (por ahora genérica)
                 Image imagen = new Image
                 {
                     Width = 150,
@@ -127,7 +117,6 @@ namespace Tienda_Virtual
                 {
                     if (!string.IsNullOrEmpty(prod.RutaImagen))
                     {
-                        // Ruta relativa dentro del proyecto
                         string rutaAbsoluta = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, prod.RutaImagen);
 
                         if (System.IO.File.Exists(rutaAbsoluta))
@@ -136,7 +125,6 @@ namespace Tienda_Virtual
                         }
                         else
                         {
-                            // Imagen de respaldo si no existe la ruta
                             imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
                         }
                     }
@@ -150,8 +138,6 @@ namespace Tienda_Virtual
                     imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
                 }
 
-
-                // Botón de ver detalles
                 Button boton = new Button
                 {
                     Content = "Ver detalles",
@@ -162,7 +148,6 @@ namespace Tienda_Virtual
                     Foreground = Brushes.White
                 };
 
-                // Asociar el producto al botón para enviarlo al detalle
                 boton.Click += (s, e) =>
                 {
                     Detalle1 detalle = new Detalle1(prod);
@@ -170,16 +155,11 @@ namespace Tienda_Virtual
                     detalle.Show();
                 };
 
-                // Agregar elementos al contenedor individual
                 item.Children.Add(imagen);
                 item.Children.Add(boton);
 
-                // Agregar item al contenedor global
-                contenedor.Children.Add(item);
+                PanelRecomendados.Children.Add(item);
             }
-
-            // Agregar todo al grid principal de resultados
-            GridContent.Children.Add(contenedor);
         }
 
 

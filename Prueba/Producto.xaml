@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tienda_Virtual"
         mc:Ignorable="d"
-        Title="Producto"              Height="400" 
+        Title="Producto"              Height="395" 
         Width="600"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
@@ -94,9 +94,9 @@
     </Window.Resources>
 
     <Border CornerRadius="10"
-            Background="AliceBlue">
+            Background="AliceBlue" Margin="0,0,0,48">
         <Grid Name="Principal"
-              Background="Transparent">
+              Background="Transparent" Margin="0,0,0,70">
             <!--#region  HEADER-->
             <Grid Name="Header" 
                   Height="50"
@@ -167,7 +167,7 @@
                 </Button>
                 <!--#endregion-->
 
-           
+
 
                 <!--#region Minimizar-->
 
@@ -218,121 +218,36 @@
             <!--#endregion-->
             <!--#region  Contenido-->
             <Grid x:Name="GridContent"
-                  Background="Transparent"
-                  VerticalAlignment="Center"
-                  HorizontalAlignment="Center"
-                  Height="310"
-                  Width="600">
+      Background="Transparent"
+      VerticalAlignment="Top"
+      HorizontalAlignment="Center"
+      Height="293"
+      Width="600" Margin="0,66,0,0">
 
-                <Border CornerRadius="0,0,0,10"
-                        Background="AliceBlue"/>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <!-- Título -->
+                    <RowDefinition Height="*"/>
+                    <!-- Panel de productos -->
+                </Grid.RowDefinitions>
 
-                <TextBlock Text="Productos Encontrados:"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top"
-                           FontSize="20"
-                           Margin="0,73,0,0"
-                           FontFamily="Century" />
+                <TextBlock Grid.Row="0"
+               Text="Productos Encontrados:"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               FontSize="20"
+               Margin="0,7,0,0"
+               FontFamily="Century" />
 
-                <Grid HorizontalAlignment="Center"
-                      VerticalAlignment="Top"
-                      Width="500"
-                      Height="40" Margin="0,20,0,0">
-
-                    <!-- Cuadro de texto -->
-                    <TextBox x:Name="Busqueda"
-                             VerticalAlignment="Center"
-                             Padding="9"
-                             FontSize="16"
-                             BorderBrush="#79D7BE"
-                             BorderThickness="2"                             
-                             Background="White" TextChanged="Busqueda_TextChanged"/>
-
-
-                    <!-- Botón con icono de lupa dentro del TextBox -->
-                    <Button Content="🔍"
-                            HorizontalAlignment="Right"
-                            VerticalAlignment="Top"
-                            Width="40"
-                            Height="40"
-                            Background="Transparent"
-                            BorderBrush="Transparent"
-                            FontSize="20"
-                            Click="SearchButton_Click" />
-                </Grid>
-
-                <!-- Contenedor para las imágenes -->
-                <StackPanel Orientation="Horizontal"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"
-                Margin="0,60,0,0">
-
-                    <!-- Imagen 1 -->
-                    <StackPanel HorizontalAlignment="Center" 
-                                VerticalAlignment="Center">
-
-                        <Image Source="\SCS\IMG\Compu.jpeg" 
-                               Width="150" 
-                               Height="100"
-                               Margin="10"/>
-
-                        <Button x:Name="BtnDetalle1" Content="Ver detalles"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Top"
-                                Width="100"
-                                Height="30"
-                                Background="#3A6D8C"
-                                Foreground="White"
-                                FontSize="12"
-                                BorderBrush="Transparent"
-                                BorderThickness="0" Click="BtnDetalle1_Click"/>
-                    </StackPanel>
-
-                    <!-- Imagen 2 -->
-                    <StackPanel HorizontalAlignment="Center" 
-                                VerticalAlignment="Center">
-
-                        <Image Source="\SCS\IMG\Compu.jpeg"
-                               Width="150" 
-                               Height="100" 
-                               Margin="10"/>
-
-                        <Button x:Name="BtnDetalle2" Content="Ver detalles"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Top"
-                                Width="100"
-                                Height="30"
-                                Background="#3A6D8C"
-                                Foreground="White"
-                                FontSize="12"
-                                BorderBrush="Transparent"
-                                BorderThickness="0" Click="BtnDetalle2_Click"/>
-                    </StackPanel>
-
-                    <!-- Imagen 3 -->
-                    <StackPanel HorizontalAlignment="Center" 
-                                VerticalAlignment="Center">
-
-                        <Image Source="\SCS\IMG\Compu.jpeg" 
-                               Width="150" 
-                               Height="100" 
-                               Margin="10"/>
-                        <Button x:Name="BtnDetalle3" Content="Ver detalles"
-                                HorizontalAlignment="Center"
-                                VerticalAlignment="Top"
-                                Width="100"
-                                Height="30"
-                                Background="#3A6D8C"
-                                Foreground="White"
-                                FontSize="12"
-                                BorderBrush="Transparent"
-                                BorderThickness="0" Click="BtnDetalle3_Click"/>
-                    </StackPanel>
-                </StackPanel>
-
-
-
+                <!-- Este es el contenedor que puedes llenar desde C# -->
+                <WrapPanel x:Name="PanelRecomendados"
+               Grid.Row="1"
+               Orientation="Horizontal"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,10,0,0"/>
             </Grid>
+
 
             <!--#endregion-->
 
