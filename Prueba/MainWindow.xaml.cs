@@ -1,4 +1,5 @@
-﻿using System.DirectoryServices;
+﻿using Microsoft.EntityFrameworkCore;
+using System.DirectoryServices;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,7 +22,7 @@ namespace Tienda_Virtual
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        public static List<int> carritoUsuario = new List<int>();
         private int _idUsuario;
         public MainWindow(int idUsuario)
         {
@@ -54,10 +55,10 @@ namespace Tienda_Virtual
 
         private void Busqueda_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
         {
-            
+
         }
 
-    
+
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
@@ -112,9 +113,10 @@ namespace Tienda_Virtual
 
         private void BtnCarrito_Click(object sender, RoutedEventArgs e)
         {
-            Compra compra = new Compra();
+            Compra carritoWindow = new Compra(new TiendaPedContext());
             this.Close();
-            compra.Show();
+            carritoWindow.Show();
+            //carritoWindow.ShowDialog();
         }
 
         //private void BtnDetalle3_Click(object sender, RoutedEventArgs e)
@@ -218,7 +220,7 @@ namespace Tienda_Virtual
 
                     if (productoOriginal != null)
                     {
-                        Detalle1 detalle = new Detalle1(productoOriginal);
+                        Detalle1 detalle = new Detalle1(productoOriginal, context);
                         this.Close();
                         detalle.Show();
                     }

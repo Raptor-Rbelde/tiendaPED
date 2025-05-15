@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tienda_Virtual.Estructuras;
+using Tienda_Virtual.Models;
 using ProductoModel = Tienda_Virtual.Models.Producto;
 
 
@@ -22,13 +24,18 @@ namespace Tienda_Virtual
     public partial class Detalle1 : Window
     {
         private ProductoModel _producto;
+        public static List<int> carritoUsuario = new List<int>();
+        private TiendaPedContext _context;
 
-        public Detalle1(ProductoModel producto)
+
+        public Detalle1(ProductoModel producto, TiendaPedContext context)
         {
             InitializeComponent();
             _producto = producto;
+            _context = context;
             MostrarDatos();
         }
+
 
         private void MostrarDatos()
         {
@@ -83,7 +90,33 @@ namespace Tienda_Virtual
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            var grafo = new GrafoProducto();
+            int idProducto = _producto.IdProducto;
+            string nombreProducto = _producto.NombreProducto;
 
+            // Agregar al carrito
+            carritoUsuario.Add(idProducto);
+
+            // Actualizar el grafo
+            foreach (var idAnterior in carritoUsuario.Where(id => id != idProducto))
+            {
+                string nombreAnterior = _context.Productos
+                    .Where(p => p.IdProducto == idAnterior)
+                    .Select(p => p.NombreProducto)
+                    .FirstOrDefault();
+
+                grafo.AgregarProducto(idProducto, nombreProducto);
+                grafo.AgregarProducto(idAnterior, nombreAnterior);
+                grafo.RelacionarProductos(idProducto, idAnterior);
+            }
+
+            MessageBox.Show("Producto agregado al carrito y relaciones actualizadas.");
+
+            foreach (var producto in carritoUsuario)
+            {
+                MessageBox.Show(producto.ToString());
+            }
         }
     }
+
 }

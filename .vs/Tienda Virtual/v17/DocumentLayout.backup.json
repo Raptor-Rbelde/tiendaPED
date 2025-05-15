@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\compra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\compra.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\models\\carritocompartido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\models\\carritocompartido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\estructuras\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\estructuras\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\estructuras\\nodolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\estructuras\\nodolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\producto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\producto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,28 +47,8 @@
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\producto.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\crearcuenta.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\detalle1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\estructuras\\nodolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\estructuras\\nodolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\estructuras\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\estructuras\\listaenlazada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\producto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\producto.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|solutionrelative:prueba\\detalle1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F88CC99-D04C-4A14-8B45-15F69329A184}|Prueba\\Tienda Virtual.csproj|c:\\users\\magal\\onedrive\\escritorio\\tiendaped\\prueba\\estructuras\\nodografo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Producto.xaml",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Producto.xaml",
               "RelativeDocumentMoniker": "Prueba\\Producto.xaml",
@@ -63,7 +79,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Prueba\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAowO0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:40:39.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Compra.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Compra.xaml.cs",
+              "RelativeDocumentMoniker": "Prueba\\Compra.xaml.cs",
+              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Compra.xaml.cs",
+              "RelativeToolTip": "Prueba\\Compra.xaml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowE8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:38:54.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Compra.xaml",
+              "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeDocumentMoniker": "Prueba\\Compra.xaml",
+              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Compra.xaml",
+              "RelativeToolTip": "Prueba\\Compra.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T20:38:41.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarritoCompartido.cs",
+              "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Models\\CarritoCompartido.cs",
+              "RelativeDocumentMoniker": "Prueba\\Models\\CarritoCompartido.cs",
+              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Models\\CarritoCompartido.cs",
+              "RelativeToolTip": "Prueba\\Models\\CarritoCompartido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T20:38:01.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CrearCuenta.xaml",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\CrearCuenta.xaml",
               "RelativeDocumentMoniker": "Prueba\\CrearCuenta.xaml",
@@ -75,80 +142,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ListaEnlazada.cs",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Estructuras\\ListaEnlazada.cs",
               "RelativeDocumentMoniker": "Prueba\\Estructuras\\ListaEnlazada.cs",
               "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Estructuras\\ListaEnlazada.cs",
               "RelativeToolTip": "Prueba\\Estructuras\\ListaEnlazada.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAF0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:40:29.563Z"
+              "WhenOpened": "2025-05-14T18:40:29.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "NodoLista.cs",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Estructuras\\NodoLista.cs",
               "RelativeDocumentMoniker": "Prueba\\Estructuras\\NodoLista.cs",
               "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Estructuras\\NodoLista.cs",
               "RelativeToolTip": "Prueba\\Estructuras\\NodoLista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T18:40:13.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Producto.xaml.cs",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Producto.xaml.cs",
               "RelativeDocumentMoniker": "Prueba\\Producto.xaml.cs",
               "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Producto.xaml.cs",
               "RelativeToolTip": "Prueba\\Producto.xaml.cs",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAuwKMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAADwv6IAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T01:46:22.993Z"
+              "WhenOpened": "2025-05-14T01:46:22.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Detalle1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Detalle1.xaml.cs",
               "RelativeDocumentMoniker": "Prueba\\Detalle1.xaml.cs",
               "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Detalle1.xaml.cs",
               "RelativeToolTip": "Prueba\\Detalle1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T02:55:37.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Detalle1.xaml",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Detalle1.xaml",
               "RelativeDocumentMoniker": "Prueba\\Detalle1.xaml",
               "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Detalle1.xaml",
               "RelativeToolTip": "Prueba\\Detalle1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-14T02:55:33.473Z"
+              "WhenOpened": "2025-05-14T02:55:33.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Prueba\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\MainWindow.xaml*",
-              "RelativeToolTip": "Prueba\\MainWindow.xaml*",
+              "ToolTip": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\MainWindow.xaml",
+              "RelativeToolTip": "Prueba\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-11T00:43:34.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "NodoGrafo.cs",
               "DocumentMoniker": "C:\\Users\\magal\\OneDrive\\Escritorio\\tiendaPED\\Prueba\\Estructuras\\NodoGrafo.cs",
               "RelativeDocumentMoniker": "Prueba\\Estructuras\\NodoGrafo.cs",
