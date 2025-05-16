@@ -26,14 +26,16 @@ namespace Tienda_Virtual
         private ProductoModel _producto;
         public static List<int> carritoUsuario = new List<int>();
         private TiendaPedContext _context;
+        private ListaEnlazada _historial;
 
 
-        public Detalle1(ProductoModel producto, TiendaPedContext context)
+        public Detalle1(ProductoModel producto, TiendaPedContext context, ListaEnlazada historial)
         {
             InitializeComponent();
             _producto = producto;
             _context = context;
             MostrarDatos();
+            _historial = historial;
         }
 
 
@@ -78,12 +80,12 @@ namespace Tienda_Virtual
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual,_historial);
             this.Close();
             mainWindow.Show();
         }

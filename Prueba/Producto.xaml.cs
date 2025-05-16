@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tienda_Virtual.Estructuras;
 using Tienda_Virtual.Models;
 using ProductoModel = Tienda_Virtual.Models.Producto;
 
@@ -26,10 +27,13 @@ namespace Tienda_Virtual
         private string _textoBusqueda;
         private TiendaPedContext _context = new TiendaPedContext();
 
-        public Producto(string textoBusqueda)
+        private ListaEnlazada _historial;
+
+        public Producto(string textoBusqueda, ListaEnlazada historial)
         {
             InitializeComponent();
             _textoBusqueda = textoBusqueda;
+            _historial = historial;
             CargarResultados();
         }
 
@@ -45,14 +49,17 @@ namespace Tienda_Virtual
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void Btnregresar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
-            this.Close();
-            mainWindow.Show();
+           
+                MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual, _historial);
+                this.Close();
+                mainWindow.Show();
+            
+
         }
 
         private void BtnDetalle1_Click(object sender, RoutedEventArgs e)
@@ -60,15 +67,15 @@ namespace Tienda_Virtual
 
         }
 
-        private void BtnDetalle2_Click(object sender, RoutedEventArgs e)
-        {
+        //private void BtnDetalle2_Click(object sender, RoutedEventArgs e)
+        //{
 
-        }
+        //}
 
-        private void BtnDetalle3_Click(object sender, RoutedEventArgs e)
-        {
+        //private void BtnDetalle3_Click(object sender, RoutedEventArgs e)
+        //{
 
-        }
+        //}
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
         {
@@ -150,7 +157,7 @@ namespace Tienda_Virtual
 
                 boton.Click += (s, e) =>
                 {
-                    Detalle1 detalle = new Detalle1(prod,_context);
+                    Detalle1 detalle = new Detalle1(prod,_context, _historial);
                     this.Close();
                     detalle.Show();
                 };

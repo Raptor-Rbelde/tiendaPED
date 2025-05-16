@@ -121,15 +121,14 @@
                     <!-- Forma Rectangular -->
                     <Rectangle Fill="#3A6D8C"
                Width="150"
-               Height="22"
                RadiusX="10"  
-               RadiusY="10"/>
+               RadiusY="10" Margin="225,10,225,11"/>
 
                     <!-- Texto dentro de la forma -->
                     <TextBlock Text="Tienda Virtual"
                Foreground="Black"
-               FontSize="15"
-               FontFamily="Comic Sans MS"
+               FontSize="16"
+               FontFamily="Century"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                Margin="0,0,0,0"/>
@@ -254,57 +253,81 @@
             </Grid>
             <!--#endregion-->
             <!-- CONTENIDO -->
-            <Grid x:Name="GridContent" 
-                  Margin="0,50,0,0" 
-                  Background="Transparent">
+            <Grid x:Name="GridContent" Margin="0,50,0,0" Background="Transparent">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <!-- Búsqueda -->
-                    <RowDefinition Height="Auto"/>
-                    <!-- Título -->
+                    <!-- Buscador -->
                     <RowDefinition Height="*"/>
-                    <!-- Recomendaciones -->
+                    <!-- Scroll para contenido -->
                 </Grid.RowDefinitions>
 
-                <!-- Cuadro de búsqueda -->
-                <Grid Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="500" Height="60" Margin="0,20,0,0">
+                <!-- Buscador -->
+                <Grid Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Height="60" Margin="50,20,0,0">
                     <TextBox x:Name="Busqueda"
-                     Padding="5,0,5,0"
-                    FontSize="16"
-                    VerticalContentAlignment="Center"
-                    BorderBrush="#79D7BE"
-                    BorderThickness="2"
-                    Background="White"
-                    TextChanged="Busqueda_TextChanged"
-                    Height="40"
-                    VerticalAlignment="Center"/>
-                    
+             Padding="5,0,5,0"
+             FontSize="16"
+             VerticalContentAlignment="Center"
+             BorderBrush="#79D7BE"
+             BorderThickness="2"
+             Background="White"
+             TextChanged="Busqueda_TextChanged"
+             Height="40"
+             VerticalAlignment="Center"/>
                     <Button Content="🔍"
-                            HorizontalAlignment="Right"
-                            VerticalAlignment="Top"
-                            Width="40"
-                            Height="40"
-                            Background="Transparent"
-                            BorderBrush="Transparent"
-                            FontSize="20"
-                            Click="SearchButton_Click" Margin="0,8,0,0"/>
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Width="40"
+            Height="40"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            FontSize="20"
+            Click="SearchButton_Click" Margin="0,8,0,0"/>
                 </Grid>
 
-                <!-- Título -->
-                <TextBlock Grid.Row="1" Text="Productos Recomendados"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top"
-                           FontSize="20"
-                           Margin="0,10,0,10"
-                           FontFamily="Century" />
+                <!-- Scroll con todo el contenido abajo -->
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="10">
+                    <StackPanel Orientation="Vertical" >
 
-                <!-- Panel dinámico de recomendaciones -->
-                <WrapPanel Grid.Row="2" x:Name="PanelRecomendados"
-                           Orientation="Horizontal"
-                           HorizontalAlignment="Center"
-                           VerticalAlignment="Top"
-                           Margin="0,10,0,0"/>
+                        <!-- Título Productos Recomendados -->
+                        <TextBlock Text="Productos Recomendados"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       FontFamily="Century"
+                       Margin="0,0,0,10" />
+
+                        <!-- Panel Horizontal para recomendaciones -->
+                        <Border BorderBrush="Black" BorderThickness="2" Padding="5" Margin="10">
+                            <WrapPanel x:Name="PanelRecomendados" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Top"
+                        Margin="0,0,0,20" />
+                        </Border>
+
+
+                        <!-- Título Historial -->
+                        <TextBlock Text="Productos más buscados"
+                       HorizontalAlignment="Center"
+                       FontSize="20"
+                       FontFamily="Century"
+                       Margin="0,100,0,10" />
+
+                        <!-- Panel Horizontal para historial -->
+                        <Border BorderBrush="Black" BorderThickness="2" Padding="5" Margin="10">
+
+                            <WrapPanel x:Name="PanelHistorial"
+                       Orientation="Horizontal"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Top"
+                       Margin="0,0,0,10" />
+
+                        </Border>
+
+                    </StackPanel>
+                </ScrollViewer>
             </Grid>
+
+
         </Grid>
     </Border>
 </Window>

@@ -24,12 +24,21 @@ namespace Tienda_Virtual
     {
         public static List<int> carritoUsuario = new List<int>();
         private int _idUsuario;
-        public MainWindow(int idUsuario)
+        private ListaEnlazada historialBusquedas = new ListaEnlazada();
+
+        public MainWindow(int idUsuario, ListaEnlazada historialExistente = null)
         {
             InitializeComponent();
             _idUsuario = idUsuario;
+            if (historialExistente != null)
+                historialBusquedas = historialExistente;
+            else
+                historialBusquedas = new ListaEnlazada();
+
             CargarRecomendados();
+            MostrarHistorial();
         }
+
 
         private void TB(object sender, RoutedEventArgs e)
         {
@@ -46,10 +55,33 @@ namespace Tienda_Virtual
                 return;
             }
 
-            // Crear la ventana de resultados y pasarle el texto
-            var productosVentana = new Producto(textoBusqueda);
-            this.Close();
+            // Aquí deberías buscar el producto real en la base de datos:
+            var context = new TiendaPedContext();
+            var productoBuscado = context.Productos.FirstOrDefault(p => p.NombreProducto.Contains(textoBusqueda));
+
+            if (productoBuscado != null)
+            {
+                // Agregar el producto al historial
+                historialBusquedas.Agregar(productoBuscado);
+
+                // Mostrar cuántos productos hay en el historial
+                int contar = 0;
+                NodoLista actual = historialBusquedas.inicio;
+                while (actual != null)
+                {
+                    contar++;
+                    actual = actual.siguiente;
+                }
+
+                // Actualizar el historial en pantalla
+                MostrarHistorial();
+            }
+
+            var productosVentana = new Producto(textoBusqueda, historialBusquedas);
+            this.Hide();
             productosVentana.Show();
+
+
 
         }
 
@@ -62,7 +94,7 @@ namespace Tienda_Virtual
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void Minimizar(object sender, RoutedEventArgs e)
@@ -220,7 +252,7 @@ namespace Tienda_Virtual
 
                     if (productoOriginal != null)
                     {
-                        Detalle1 detalle = new Detalle1(productoOriginal, context);
+                        Detalle1 detalle = new Detalle1(productoOriginal, context, historialBusquedas);
                         this.Close();
                         detalle.Show();
                     }
@@ -237,6 +269,116 @@ namespace Tienda_Virtual
 
         }
 
+        private void MostrarHistorial()
+        {
+            // Obtener los productos más buscados (con contador) ordenados y limitar a 3
+            List<(ProductoModel producto, int contador)> productosContados = new List<(ProductoModel, int)>();
+
+            NodoLista nodoActual = historialBusquedas.inicio;
+            while (nodoActual != null)
+            {
+                productosContados.Add((nodoActual.producto, nodoActual.vistas));// Asumo que tienes contador
+                nodoActual = nodoActual.siguiente;
+            }
+
+            var top3 = productosContados.OrderByDescending(pc => pc.contador).Take(3).ToList();
+
+            WrapPanel contenedorHistorial = new WrapPanel
+            {
+                Orientation = Orientation.Horizontal,
+                HorizontalAlignment = HorizontalAlignment.Center,
+                Margin = new Thickness(10)
+            };
+
+            foreach (var item in top3)
+            {
+                var prod = item.producto;
+
+                StackPanel itemPanel = new StackPanel
+                {
+                    Margin = new Thickness(5),
+                    HorizontalAlignment = HorizontalAlignment.Center
+                };
+
+                Image imagen = new Image
+                {
+                    Width = 150,
+                    Height = 100
+                };
+
+                try
+                {
+                    if (!string.IsNullOrEmpty(prod.RutaImagen))
+                    {
+                        string rutaAbsoluta = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, prod.RutaImagen);
+
+                        if (System.IO.File.Exists(rutaAbsoluta))
+                        {
+                            imagen.Source = new BitmapImage(new Uri(rutaAbsoluta, UriKind.Absolute));
+                        }
+                        else
+                        {
+                            imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                        }
+                    }
+                    else
+                    {
+                        imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                    }
+                }
+                catch
+                {
+                    imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                }
+
+                //// Botón para ver detalle si quieres
+                //Button boton = new Button
+                //{
+                //    Content = "Ver detalles",
+                //    Width = 100,
+                //    Height = 30,
+                //    Margin = new Thickness(0, 5, 0, 0),
+                //    Background = new SolidColorBrush(Color.FromRgb(58, 109, 140)),
+                //    Foreground = Brushes.White
+                //};
+
+                //boton.Click += (s, e) =>
+                //{
+                //    var context = new TiendaPedContext();
+                //    var productoOriginal = context.Productos.FirstOrDefault(p => p.IdProducto == prod.IdProducto);
+                //    if (productoOriginal != null)
+                //    {
+                //        Detalle1 detalle = new Detalle1(productoOriginal, context);
+                //        this.Close();
+                //        detalle.Show();
+                //    }
+                //};
+                //itemPanel.Children.Add(boton);
+
+                itemPanel.Children.Add(imagen);
+
+                TextBlock nombreProducto = new TextBlock
+                {
+                    Text = prod.NombreProducto,
+                    FontSize = 14,
+                    Foreground = Brushes.Black,
+                    HorizontalAlignment = HorizontalAlignment.Center,
+                    Margin = new Thickness(0, 0, 0, 0),
+                    TextWrapping = TextWrapping.Wrap,
+                    Width = 100,
+                    Height=40
+                };
+
+                itemPanel.Children.Add(nombreProducto);
+
+
+
+                contenedorHistorial.Children.Add(itemPanel);
+            }
+
+            PanelHistorial.Children.Clear();
+            PanelHistorial.Children.Add(contenedorHistorial);
+        }
 
     }
 }

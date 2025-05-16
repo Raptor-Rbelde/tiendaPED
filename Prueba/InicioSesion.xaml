@@ -162,8 +162,8 @@
                     <!-- Texto dentro de la forma -->
                     <TextBlock Text="Iniciar Sesión"
                                Foreground="Black"
-                               FontSize="15"
-                               FontFamily="Comic Sans MS"
+                               FontSize="16"
+                               FontFamily="Century"
                                HorizontalAlignment="Center"
                                VerticalAlignment="Center"
                                Margin="0,0,0,0"/>

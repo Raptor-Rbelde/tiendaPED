@@ -25,7 +25,7 @@ namespace Tienda_Virtual
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void Regresar_Click(object sender, RoutedEventArgs e)

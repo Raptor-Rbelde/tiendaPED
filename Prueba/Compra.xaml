@@ -145,11 +145,10 @@
                     <!-- Texto dentro de la forma -->
                     <TextBlock Text="Compras"
                            Foreground="Black"
-                           FontSize="15"
-                           FontFamily="Comic Sans MS"
+                           FontSize="17"
+                           FontFamily="Century"
                            HorizontalAlignment="Center"
-                           VerticalAlignment="Center"
-                           Margin="0,0,0,0"/>
+                           VerticalAlignment="Center"/>
                 </Grid>
                 <!--#endregion-->
 
@@ -248,11 +247,11 @@
                    HorizontalAlignment="Center" 
                    Margin="0,5,0,10"/>
 
-                    <ListBox x:Name="lstCarrito" Margin="10">
+                    <ListBox x:Name="lstCarrito" Background="Transparent" Margin="10">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
                                 <StackPanel Margin="0,5">
-                                    <TextBlock Text="{Binding}" FontSize="10"/>
+                                    <TextBlock Text="{Binding}" FontSize="12"/>
                                     <Line X1="0" X2="300" 
                               Stroke="Black" 
                               StrokeThickness="2"
@@ -272,14 +271,14 @@
                         FontSize="14"
                         Background="#001F3F"  Foreground="White"
                         Style="{StaticResource RoundedButtonStyle}"
-                        Margin="10,0,10,0"/>
+                        Margin="10,0,10,0" Click="BtnFinalizar"/>
 
                 <Button Content="Eliminar Compras"
                         Width="150" Height="40"
                         FontSize="14"
                         Background="#001F3F"  Foreground="White"
                         Style="{StaticResource RoundedButtonStyle}"
-                        Margin="10,0,10,0"/>
+                        Margin="10,0,10,0" Click="BtnEliminarProd"/>
             </StackPanel>
 
         </Grid>

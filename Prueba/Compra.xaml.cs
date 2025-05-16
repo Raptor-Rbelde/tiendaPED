@@ -72,7 +72,7 @@ namespace Tienda_Virtual
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
@@ -83,6 +83,16 @@ namespace Tienda_Virtual
         }
 
         private void lstCarrito_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void BtnFinalizar(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BtnEliminarProd(object sender, RoutedEventArgs e)
         {
 
         }

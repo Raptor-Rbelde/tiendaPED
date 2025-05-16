@@ -13,12 +13,6 @@
     <Compile Update="Detalle1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Detalle2.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Detalle3.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="InicioSesion.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -31,12 +25,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Detalle1.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Detalle2.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Detalle3.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="InicioSesion.xaml">
