@@ -37,9 +37,11 @@ namespace Tienda_Virtual
             MostrarProductosEnCarrito();
         }
 
+
         private void MostrarProductosEnCarrito()
         {
             List<string> producto = new List<string>();
+
             // Cargar los productos en el carrito usando sus IDs
             //var productosEnCarrito = Detalle1.carritoUsuario
             //    .Select(id => _context.Productos.FirstOrDefault(p => p.IdProducto == id))
@@ -94,9 +96,43 @@ namespace Tienda_Virtual
 
         }
 
+
+        //Eliminar un elemento de la lista del carrito
+
         private void BtnEliminarProd(object sender, RoutedEventArgs e)
         {
+            if (lstCarrito.SelectedItem != null)
+            {
+                string itemSeleccionado = lstCarrito.SelectedItem.ToString();
 
+                // Buscar el ID del producto basándose en el nombre
+                var producto = _context.Productos
+                    .FirstOrDefault(p => itemSeleccionado.Contains(p.NombreProducto) && SesionActual.CarritoUsuario.Contains(p.IdProducto));
+
+                if (producto != null)
+                {
+                    // Mostrar mensaje de confirmación
+                    MessageBoxResult resultado = MessageBox.Show(
+                        $"¿Está seguro que desea eliminar el producto \"{producto.NombreProducto}\" del carrito?",
+                        "Confirmar eliminación",
+                        MessageBoxButton.YesNo,
+                        MessageBoxImage.Question);
+
+                    if (resultado == MessageBoxResult.Yes)
+                    {
+                        // Eliminar del carrito
+                        SesionActual.CarritoUsuario.Remove(producto.IdProducto);
+
+                        // Actualizar vista
+                        MostrarProductosEnCarrito();
+                    }
+                    // Si elige No, no se hace nada
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecciona un producto para eliminar.", "Aviso", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
     }
 }

@@ -306,7 +306,7 @@
 
 
                         <!-- Título Historial -->
-                        <TextBlock Text="Productos más buscados"
+                        <TextBlock Text="Movimientos del usuario:"
                        HorizontalAlignment="Center"
                        FontSize="20"
                        FontFamily="Century"

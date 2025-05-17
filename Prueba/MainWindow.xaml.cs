@@ -45,31 +45,23 @@ namespace Tienda_Virtual
                 return;
             }
 
-            // Aquí se buscara el producto real en la base de datos:
             var context = new TiendaPedContext();
-            var productoBuscado = context.Productos.FirstOrDefault(p => p.NombreProducto.Contains(textoBusqueda));
+            var productosEncontrados = context.Productos
+                .Where(p => p.NombreProducto.Contains(textoBusqueda))
+                .ToList();
 
-            if (productoBuscado != null)
+            // Solo agregar al historial si hay exactamente 1 producto
+            if (productosEncontrados.Count == 1)
             {
-                // Agregar el producto al historial
-                SesionActual.HistorialBusquedas.Agregar(productoBuscado);
-
-                // Mostrar cuántos productos hay en el historial
-                int contar = 0;
-                NodoLista actual = SesionActual.HistorialBusquedas.inicio;
-                while (actual != null)
-                {
-                    contar++;
-                    actual = actual.siguiente;
-                }
-
-                // Actualizar el historial en pantalla
+                SesionActual.HistorialBusquedas.Agregar(productosEncontrados[0]);
                 MostrarHistorial();
             }
 
+            // Abrir la ventana de productos con todos los encontrados
             var productosVentana = new Producto(textoBusqueda, SesionActual.HistorialBusquedas);
             this.Hide();
             productosVentana.Show();
+
 
         }
 
@@ -188,9 +180,18 @@ namespace Tienda_Virtual
 
                 boton.Click += (_, __) =>
                 {
-                    Detalle1 detalle = new Detalle1(prod, context);
-                    this.Hide();
-                    detalle.Show();
+                  
+                        // Agregar producto al historial porque se está viendo en detalle
+                        SesionActual.HistorialBusquedas.Agregar(prod);
+
+                        // Actualizar historial visualmente en esta ventana
+                        MostrarHistorial();
+
+                        Detalle1 detalle = new Detalle1(prod, context);
+                        this.Hide();
+                        detalle.Show();
+                   
+
                 };
 
                 item.Children.Add(img);
@@ -205,17 +206,21 @@ namespace Tienda_Virtual
 
         private void MostrarHistorial()
         {
-            // Obtener los productos más buscados (con contador) ordenados y limitar a 3
             List<(ProductoModel producto, int contador)> productosContados = new List<(ProductoModel, int)>();
 
             NodoLista nodoActual = SesionActual.HistorialBusquedas.inicio;
             while (nodoActual != null)
             {
-                productosContados.Add((nodoActual.producto, nodoActual.vistas));// Asumo que tienes contador
+                productosContados.Add((nodoActual.producto, nodoActual.vistas));
                 nodoActual = nodoActual.siguiente;
             }
 
-            var top3 = productosContados.OrderByDescending(pc => pc.contador).Take(3).ToList();
+            // Tomar los últimos 3 productos vistos (orden inverso)
+            var ultimos3 = productosContados
+                .AsEnumerable()  // para usar Reverse()
+                .Reverse()
+                .Take(3)
+                .ToList();
 
             WrapPanel contenedorHistorial = new WrapPanel
             {
@@ -224,7 +229,7 @@ namespace Tienda_Virtual
                 Margin = new Thickness(10)
             };
 
-            foreach (var item in top3)
+            foreach (var item in ultimos3)
             {
                 var prod = item.producto;
 
@@ -265,8 +270,6 @@ namespace Tienda_Virtual
                     imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
                 }
 
-
-
                 itemPanel.Children.Add(imagen);
 
                 TextBlock nombreProducto = new TextBlock
@@ -278,12 +281,10 @@ namespace Tienda_Virtual
                     Margin = new Thickness(0, 0, 0, 0),
                     TextWrapping = TextWrapping.Wrap,
                     Width = 100,
-                    Height=40
+                    Height = 40
                 };
 
                 itemPanel.Children.Add(nombreProducto);
-
-
 
                 contenedorHistorial.Children.Add(itemPanel);
             }

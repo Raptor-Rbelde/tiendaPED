@@ -14,6 +14,7 @@ namespace Tienda_Virtual.Estructuras
         public int vistas; // contador de vistas
         public NodoLista siguiente;
 
+
         public NodoLista(Models.Producto producto)
         {
             this.producto = producto;

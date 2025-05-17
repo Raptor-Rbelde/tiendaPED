@@ -157,7 +157,9 @@ namespace Tienda_Virtual
 
                 boton.Click += (s, e) =>
                 {
-                    Detalle1 detalle = new Detalle1(prod,_context);
+                    _historial.Agregar(prod);
+
+                    Detalle1 detalle = new Detalle1(prod, _context);
                     this.Close();
                     detalle.Show();
                 };
