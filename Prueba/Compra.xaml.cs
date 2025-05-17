@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Tienda_Virtual.Estructuras;
 using Tienda_Virtual.Models;
 
 namespace Tienda_Virtual
@@ -46,7 +47,7 @@ namespace Tienda_Virtual
             //    .ToList();
 
             var productosEnCarrito = _context.Productos
-                .Where(p => Detalle1.carritoUsuario.Contains(p.IdProducto))
+                .Where(p => SesionActual.CarritoUsuario.Contains(p.IdProducto))
                 .ToList();
 
             // Mostrar los nombres de los productos en un ListBox (lstCarrito)
@@ -77,7 +78,8 @@ namespace Tienda_Virtual
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual);
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual, SesionActual.HistorialBusquedas);
+
             this.Close();
             mainWindow.Show();
         }

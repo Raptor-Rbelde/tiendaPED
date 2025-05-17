@@ -17,32 +17,22 @@ using ProductoModel = Tienda_Virtual.Models.Producto;
 
 namespace Tienda_Virtual
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-        public static List<int> carritoUsuario = new List<int>();
         private int _idUsuario;
-        private ListaEnlazada historialBusquedas = new ListaEnlazada();
+
 
         public MainWindow(int idUsuario, ListaEnlazada historialExistente = null)
         {
             InitializeComponent();
             _idUsuario = idUsuario;
             if (historialExistente != null)
-                historialBusquedas = historialExistente;
+                SesionActual.HistorialBusquedas = historialExistente;
             else
-                historialBusquedas = new ListaEnlazada();
+                SesionActual.HistorialBusquedas = new ListaEnlazada();
 
             CargarRecomendados();
             MostrarHistorial();
-        }
-
-
-        private void TB(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void SearchButton_Click(object sender, RoutedEventArgs e)
@@ -55,18 +45,18 @@ namespace Tienda_Virtual
                 return;
             }
 
-            // Aquí deberías buscar el producto real en la base de datos:
+            // Aquí se buscara el producto real en la base de datos:
             var context = new TiendaPedContext();
             var productoBuscado = context.Productos.FirstOrDefault(p => p.NombreProducto.Contains(textoBusqueda));
 
             if (productoBuscado != null)
             {
                 // Agregar el producto al historial
-                historialBusquedas.Agregar(productoBuscado);
+                SesionActual.HistorialBusquedas.Agregar(productoBuscado);
 
                 // Mostrar cuántos productos hay en el historial
                 int contar = 0;
-                NodoLista actual = historialBusquedas.inicio;
+                NodoLista actual = SesionActual.HistorialBusquedas.inicio;
                 while (actual != null)
                 {
                     contar++;
@@ -77,11 +67,9 @@ namespace Tienda_Virtual
                 MostrarHistorial();
             }
 
-            var productosVentana = new Producto(textoBusqueda, historialBusquedas);
+            var productosVentana = new Producto(textoBusqueda, SesionActual.HistorialBusquedas);
             this.Hide();
             productosVentana.Show();
-
-
 
         }
 
@@ -89,8 +77,6 @@ namespace Tienda_Virtual
         {
 
         }
-
-
 
         private void Cerrar(object sender, RoutedEventArgs e)
         {
@@ -110,105 +96,34 @@ namespace Tienda_Virtual
             inicioSesion.Show();
         }
 
-        //private void BtnDetalle1_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var productoEjemplo = new ProductoModel
-        //    {
-        //        //IdProducto = 101,
-        //        //IdUsuario = 1,
-        //        //NombreProducto = "Mouse Logitech",
-        //        //Precio = 150,
-        //        //Descripcion = "Mouse ergonómico con sensor óptico avanzado"
-        //    };
-
-        //    Detalle1 detalle1 = new Detalle1(productoEjemplo);
-        //    this.Close();
-        //    detalle1.Show();
-        //}
-
-
-        //private void BtnDetalle2_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var productoEjemplo = new ProductoModel
-        //    {
-        //        //IdProducto = 101,
-        //        //IdUsuario = 1,
-        //        //NombreProducto = "Mouse Logitech",
-        //        //Precio = 150,
-        //        //Descripcion = "Mouse ergonómico con sensor óptico avanzado"
-        //    };
-
-        //    Detalle1 detalle1 = new Detalle1(productoEjemplo);
-        //    this.Close();
-        //    detalle1.Show();
-        //}
 
         private void BtnCarrito_Click(object sender, RoutedEventArgs e)
         {
             Compra carritoWindow = new Compra(new TiendaPedContext());
             this.Close();
             carritoWindow.Show();
-            //carritoWindow.ShowDialog();
         }
 
-        //private void BtnDetalle3_Click(object sender, RoutedEventArgs e)
-        //{
-        //    var productoEjemplo = new ProductoModel
-        //    {
-        //        //IdProducto = 101,
-        //        //IdUsuario = 1,
-        //        //NombreProducto = "Mouse Logitech",
-        //        //Precio = 150,
-        //        //Descripcion = "Mouse ergonómico con sensor óptico avanzado"
-        //    };
-
-        //    Detalle1 detalle1 = new Detalle1(productoEjemplo);
-        //    this.Close();
-        //    detalle1.Show();
-        //}
-
-
-        // Metodo que usa el grafo con recomendaciones reales
         private void CargarRecomendados()
         {
             var context = new TiendaPedContext();
 
-            // Construir el grafo
-            var grafo = new GrafoProducto();
-
-            // Agregar todos los productos al grafo
-            var productos = context.Productos.ToList();
-            foreach (var p in productos)
+            // Registrar todos los productos en el grafo global (por si no están)
+            foreach (var p in context.Productos.ToList())
             {
-                grafo.AgregarProducto(p.IdProducto, p.NombreProducto);
+                SesionActual.Grafo.AgregarProducto(p.IdProducto, p.NombreProducto);
             }
 
-
-            //var p1 = context.Productos.FirstOrDefault(p => p.IdProducto == 101); // Mouse Logitech
-            //var p2 = context.Productos.FirstOrDefault(p => p.IdProducto == 102); // Teclado Mecánico
-
-            //if (p1 != null && p2 != null)
-            //{
-            //    // Agregar ambos productos al grafo por si aún no estaban
-            //    grafo.AgregarProducto(p1.IdProducto, p1.NombreProducto);
-            //    grafo.AgregarProducto(p2.IdProducto, p2.NombreProducto);
-
-            //    // Simular una relación directa entre ellos
-            //    grafo.RelacionarProductos(p1.IdProducto, p2.IdProducto);
-            //}
-
-
-            // Obtener recomendaciones
-            var servicio = new ServicioDeRecomendacion(context, grafo);
+            // Obtener recomendaciones usando el grafo global
+            var servicio = new ServicioDeRecomendacion(context, SesionActual.Grafo);
             var recomendados = servicio.ObtenerRecomendacionesParaUsuario(_idUsuario);
 
-            // Mostrar en la interfaz
             MostrarRecomendadosEnPantalla(recomendados);
         }
 
-
         private void MostrarRecomendadosEnPantalla(List<NodoGrafo> productos)
         {
+            // Panel contenedor
             WrapPanel contenedor = new WrapPanel
             {
                 Orientation = Orientation.Horizontal,
@@ -217,24 +132,51 @@ namespace Tienda_Virtual
                 Margin = new Thickness(10)
             };
 
+            var context = new TiendaPedContext();   // 1 sola instancia para todo el bucle
 
-
-            foreach (var prod in productos.Take(3)) // solo mostrar los primeros 3
+            foreach (var nodo in productos.Take(3))               // solo 3 recomendados
             {
+                // Recuperar el producto completo
+                var prod = context.Productos.FirstOrDefault(p => p.IdProducto == nodo.ID);
+                if (prod == null) continue;                       // seguridad
+
                 StackPanel item = new StackPanel
                 {
                     Margin = new Thickness(10),
                     HorizontalAlignment = HorizontalAlignment.Center
                 };
 
-                var img = new Image
+                // ----- Imagen -------------------------------------------------------
+                Image img = new Image
                 {
-                    Source = new BitmapImage(new Uri("/SCS/IMG/Compu.jpeg", UriKind.Relative)),
                     Width = 150,
                     Height = 100
                 };
 
-                var boton = new Button
+                try
+                {
+                    if (!string.IsNullOrEmpty(prod.RutaImagen))
+                    {
+                        string rutaAbsoluta = System.IO.Path.Combine(
+                            AppDomain.CurrentDomain.BaseDirectory, prod.RutaImagen);
+
+                        if (System.IO.File.Exists(rutaAbsoluta))
+                            img.Source = new BitmapImage(new Uri(rutaAbsoluta, UriKind.Absolute));
+                        else                                            // fallback si no existe
+                            img.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                    }
+                    else
+                    {
+                        img.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                    }
+                }
+                catch
+                {
+                    img.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
+                }
+                // --------------------------------------------------------------------
+
+                Button boton = new Button
                 {
                     Content = "Ver detalles",
                     Width = 100,
@@ -244,18 +186,11 @@ namespace Tienda_Virtual
                     Foreground = Brushes.White
                 };
 
-                boton.Click += (s, e) =>
+                boton.Click += (_, __) =>
                 {
-                    // Para abrir el detalle, necesitas recuperar el objeto completo desde el ID
-                    var context = new TiendaPedContext();
-                    var productoOriginal = context.Productos.FirstOrDefault(p => p.IdProducto == prod.ID);
-
-                    if (productoOriginal != null)
-                    {
-                        Detalle1 detalle = new Detalle1(productoOriginal, context, historialBusquedas);
-                        this.Close();
-                        detalle.Show();
-                    }
+                    Detalle1 detalle = new Detalle1(prod, context);
+                    this.Hide();
+                    detalle.Show();
                 };
 
                 item.Children.Add(img);
@@ -265,16 +200,15 @@ namespace Tienda_Virtual
 
             PanelRecomendados.Children.Clear();
             PanelRecomendados.Children.Add(contenedor);
-
-
         }
+
 
         private void MostrarHistorial()
         {
             // Obtener los productos más buscados (con contador) ordenados y limitar a 3
             List<(ProductoModel producto, int contador)> productosContados = new List<(ProductoModel, int)>();
 
-            NodoLista nodoActual = historialBusquedas.inicio;
+            NodoLista nodoActual = SesionActual.HistorialBusquedas.inicio;
             while (nodoActual != null)
             {
                 productosContados.Add((nodoActual.producto, nodoActual.vistas));// Asumo que tienes contador
@@ -331,29 +265,7 @@ namespace Tienda_Virtual
                     imagen.Source = new BitmapImage(new Uri("pack://application:,,,/SCS/IMG/Compu.jpeg"));
                 }
 
-                //// Botón para ver detalle si quieres
-                //Button boton = new Button
-                //{
-                //    Content = "Ver detalles",
-                //    Width = 100,
-                //    Height = 30,
-                //    Margin = new Thickness(0, 5, 0, 0),
-                //    Background = new SolidColorBrush(Color.FromRgb(58, 109, 140)),
-                //    Foreground = Brushes.White
-                //};
 
-                //boton.Click += (s, e) =>
-                //{
-                //    var context = new TiendaPedContext();
-                //    var productoOriginal = context.Productos.FirstOrDefault(p => p.IdProducto == prod.IdProducto);
-                //    if (productoOriginal != null)
-                //    {
-                //        Detalle1 detalle = new Detalle1(productoOriginal, context);
-                //        this.Close();
-                //        detalle.Show();
-                //    }
-                //};
-                //itemPanel.Children.Add(boton);
 
                 itemPanel.Children.Add(imagen);
 

@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\magal\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\magal\\.nuget\\packages"
+      "C:\\Users\\micap\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\micap\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,

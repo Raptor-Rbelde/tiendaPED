@@ -17,6 +17,8 @@ public partial class Producto
 
     public string? RutaImagen { get; set; }
 
+    public string? Categoria { get; set; }
+
     public virtual ICollection<Factura> Facturas { get; set; } = new List<Factura>();
 
     public virtual Usuario IdUsuarioNavigation { get; set; } = null!;

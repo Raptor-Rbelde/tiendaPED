@@ -58,15 +58,50 @@ namespace Tienda_Virtual.Estructuras
                 .Where(r => r.IdProducto1 == idProducto || r.IdProducto2 == idProducto)
                 .OrderByDescending(r => r.Peso)
                 .Select(r => r.IdProducto1 == idProducto ? r.IdProducto2 : r.IdProducto1)
-                .Where(id => !productosYaVistos.Contains(id))
-                .Distinct()
                 .ToList();
 
-            return relacionesConPeso
+            // No filtramos arriba, lo hacemos acá
+            var relacionados = relacionesConPeso
                 .Where(id => nodos.ContainsKey(id))
                 .Select(id => nodos[id])
+                .Where(n => !productosYaVistos.Contains(n.ID))
                 .ToList();
+
+            return relacionados;
         }
+
+
+        public void RegistrarInteraccion(int idActual, string nombreActual, List<int> idsRelacionados)
+        {
+            // Agrega o actualiza el producto actual
+            AgregarProducto(idActual, nombreActual);
+
+            foreach (var idRelacionado in idsRelacionados)
+            {
+                if (!nodos.ContainsKey(idRelacionado))
+                {
+                   
+                    nodos[idRelacionado] = new NodoGrafo(idRelacionado, $"Producto {idRelacionado}");
+                }
+
+                RelacionarProductos(idActual, idRelacionado);
+            }
+        }
+
+        public void AgregarOActualizarProducto(int id, string nombre)
+        {
+            if (!nodos.ContainsKey(id))
+            {
+                nodos[id] = new NodoGrafo(id, nombre);
+            }
+            else if (string.IsNullOrWhiteSpace(nodos[id].Nombre))
+            {
+                nodos[id].Nombre = nombre;
+            }
+        }
+
+
+
 
         // Devuelve la lista completa de productos registrados en el grafo.
         public List<NodoGrafo> ObtenerTodosLosProductos()

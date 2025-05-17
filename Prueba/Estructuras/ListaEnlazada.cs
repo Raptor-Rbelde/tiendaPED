@@ -8,6 +8,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Media3D;
 using Tienda_Virtual.Estructuras;
 using Tienda_Virtual.Models;
 
@@ -141,6 +142,22 @@ namespace Tienda_Virtual.Estructuras
             }
             return productos;
         }
+
+        public List<int> ObtenerIdsProductos()
+        {
+            List<int> ids = new List<int>();
+            NodoLista actual = inicio;
+
+            while (actual != null)
+            {
+                ids.Add(actual.producto.IdProducto);
+                actual = actual.siguiente;
+            }
+
+            return ids;
+        }
+
+
     }
 
 }

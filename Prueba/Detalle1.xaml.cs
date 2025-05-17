@@ -24,18 +24,18 @@ namespace Tienda_Virtual
     public partial class Detalle1 : Window
     {
         private ProductoModel _producto;
-        public static List<int> carritoUsuario = new List<int>();
+        //public static List<int> carritoUsuario = new List<int>();
         private TiendaPedContext _context;
-        private ListaEnlazada _historial;
+        //private ListaEnlazada _historial;
 
 
-        public Detalle1(ProductoModel producto, TiendaPedContext context, ListaEnlazada historial)
+        public Detalle1(ProductoModel producto, TiendaPedContext context)
         {
             InitializeComponent();
             _producto = producto;
             _context = context;
             MostrarDatos();
-            _historial = historial;
+            //_historial = historial;
         }
 
 
@@ -85,40 +85,31 @@ namespace Tienda_Virtual
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual,_historial);
+            MainWindow mainWindow = new MainWindow(UsuarioSesion.IdUsuarioActual, SesionActual.HistorialBusquedas);
+
             this.Close();
             mainWindow.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var grafo = new GrafoProducto();
             int idProducto = _producto.IdProducto;
             string nombreProducto = _producto.NombreProducto;
 
-            // Agregar al carrito
-            carritoUsuario.Add(idProducto);
+            // Agregar a historial y carrito
+            SesionActual.CarritoUsuario.Add(idProducto);
+            SesionActual.HistorialBusquedas.Agregar(_producto);
 
-            // Actualizar el grafo
-            foreach (var idAnterior in carritoUsuario.Where(id => id != idProducto))
-            {
-                string nombreAnterior = _context.Productos
-                    .Where(p => p.IdProducto == idAnterior)
-                    .Select(p => p.NombreProducto)
-                    .FirstOrDefault();
+            // Crear lista combinada de productos relacionados
+            var idsRelacionados = SesionActual.HistorialBusquedas.ObtenerIdsProductos()
+                .Concat(SesionActual.CarritoUsuario)
+                .Distinct()
+                .Where(id => id != idProducto)
+                .ToList();
 
-                grafo.AgregarProducto(idProducto, nombreProducto);
-                grafo.AgregarProducto(idAnterior, nombreAnterior);
-                grafo.RelacionarProductos(idProducto, idAnterior);
-            }
+            MessageBox.Show("Producto agregado al carrito.");
 
-            MessageBox.Show("Producto agregado al carrito y relaciones actualizadas.");
-
-            foreach (var producto in carritoUsuario)
-            {
-                MessageBox.Show(producto.ToString());
-            }
         }
-    }
 
+    }
 }

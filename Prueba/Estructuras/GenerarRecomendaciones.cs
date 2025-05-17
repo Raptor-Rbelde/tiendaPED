@@ -22,15 +22,14 @@ namespace Tienda_Virtual.Estructuras
         // en base a los productos que ya ha visto o agregado al carrito.
         public List<NodoGrafo> RecomendarProducto(List<int> productosVistos)
         {
-            var recomendados = new HashSet<NodoGrafo>(); // Para evitar duplicados
-            var vistosSet = new HashSet<int>(productosVistos); // Para buscar eficientemente si un producto ya fue visto
+            var recomendados = new HashSet<NodoGrafo>();
+            var vistosSet = new HashSet<int>(productosVistos);
 
             foreach (var id in productosVistos)
             {
-                // Obtener los productos relacionados al producto actual, excluyendo los ya vistos
                 var vecinos = grafo.ObtenerRecomendaciones(id, vistosSet);
 
-                // Agregar los productos recomendados al conjunto final
+
                 foreach (var vecino in vecinos)
                 {
                     recomendados.Add(vecino);
@@ -39,5 +38,6 @@ namespace Tienda_Virtual.Estructuras
 
             return recomendados.ToList();
         }
+
     }
 }

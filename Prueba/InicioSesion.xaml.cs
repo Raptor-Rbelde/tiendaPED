@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Windows;
+using Tienda_Virtual.Estructuras;
 using Tienda_Virtual.Models;
 
 namespace Tienda_Virtual
@@ -48,6 +49,11 @@ namespace Tienda_Virtual
             {
                 MessageBox.Show("Inicio de sesión exitoso");
 
+                // Reset de la sesion actual //
+                SesionActual.HistorialBusquedas = new ListaEnlazada();
+                SesionActual.CarritoUsuario = new List<int>();
+                SesionActual.Grafo = new GrafoProducto();
+
                 // Guardar el ID del usuario para toda la aplicación
                 UsuarioSesion.IdUsuarioActual = user.IdUsuario;
 
@@ -61,6 +67,8 @@ namespace Tienda_Virtual
                 MessageBox.Show("Correo o contraseña incorrectos");
             }
         }
+
+
 
         // Botón para crear cuenta
         private void Button_Click_1(object sender, RoutedEventArgs e)

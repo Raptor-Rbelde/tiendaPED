@@ -25,14 +25,37 @@ namespace Tienda_Virtual.Estructuras
         // Obtiene recomendaciones para un usuario específico, usando los productos que él ya registró.
         public List<NodoGrafo> ObtenerRecomendacionesParaUsuario(int idUsuario)
         {
-            // Se obtienen los productos que este usuario ha subido (o compró, dependiendo del modelo)
-            var productosDelUsuario = _context.Productos
-                .Where(p => p.IdUsuario == idUsuario)
-                .Select(p => p.IdProducto)
-                .ToList();
+            // Obtiene productos vistos
+            var productosVistos = SesionActual.HistorialBusquedas.ObtenerProductos()
+                                 .Concat(
+                                     SesionActual.CarritoUsuario.Select(
+                                         id => _context.Productos.FirstOrDefault(p => p.IdProducto == id)))
+                                 .Where(p => p != null)
+                                 .ToList();
 
-            // Se generan recomendaciones excluyendo los productos que ya están en su historial
-            return _recomendador.RecomendarProducto(productosDelUsuario);
+            // Extraer categorías + ids para filtrar
+            var categoriasVistas = productosVistos.Select(p => p.Categoria).Distinct().ToList();
+            var idsVistos = productosVistos.Select(p => p.IdProducto).ToHashSet();
+
+            //  Buscar otros productos CON esas categorías
+            var candidatos = _context.Productos
+                              .Where(p => categoriasVistas.Contains(p.Categoria!) &&
+                                          !idsVistos.Contains(p.IdProducto))
+                              .ToList();
+
+            // Mapear a NodoGrafo
+            var resultado = candidatos
+                            .Select(p => new NodoGrafo(p.IdProducto, p.NombreProducto))
+                            .ToList();
+
+            return resultado;
         }
+
+
+        public List<NodoGrafo> ObtenerRecomendacionesDesdeHistorial(List<int> ids)
+        {
+            return _recomendador.RecomendarProducto(ids);
+        }
+
     }
 }
