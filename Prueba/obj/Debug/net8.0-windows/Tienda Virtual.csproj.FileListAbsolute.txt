@@ -475,8 +475,6 @@ C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual.csproj
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.g.cs
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\CrearCuenta.g.cs
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.g.cs
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.g.cs
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.g.cs
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.g.cs
@@ -487,8 +485,6 @@ C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Tienda Virtual_Markup
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Compra.baml
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\CrearCuenta.baml
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle1.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle2.baml
-C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Detalle3.baml
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\InicioSesion.baml
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\Ludwing\tiendaPED\Prueba\obj\Debug\net8.0-windows\Producto.baml
@@ -693,7 +689,6 @@ C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\lap
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\monitor24.jpg
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\mouse_hyperx.jpg
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\mouse_logitech.png
-C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\mouse_redragon.png
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\routerwifi6.jpg
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\teclado_mecanico.jpg
 C:\Users\Ludwing\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\usb64gb.jpg
@@ -888,3 +883,8 @@ C:\Users\micap\Desktop\universidad\ciclo3\PED\tiendaPED\Prueba\bin\Debug\net8.0-
 C:\Users\micap\Desktop\universidad\ciclo3\PED\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\teclado_mecanico.jpg
 C:\Users\micap\Desktop\universidad\ciclo3\PED\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\usb64gb.jpg
 C:\Users\micap\Desktop\universidad\ciclo3\PED\tiendaPED\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\webcamhd.png
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\cargador_universal.jpg
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\hub_usb.jpg
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\mouse_redragon.jpg
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\pad_mouse.jpg
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\soporte_laptop.jpg
