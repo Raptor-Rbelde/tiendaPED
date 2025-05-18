@@ -215,34 +215,6 @@
                 <!--#endregion-->
 
                 <!--#region Regreso-->
-                <Button Style="{DynamicResource BTNHEADERSTYLE}" x:Name="BtnRegresar"
-                    Background="Transparent"
-                    BorderBrush="Transparent"
-                    Height="40"
-                    Width="40"
-                    HorizontalAlignment="Left"
-                    VerticalAlignment="Top"
-                    Margin="10,5,0,0" 
-                    Click="Regresar_Click">
-
-
-                    <Border Background="#79D7BE"  
-                            BorderBrush="Transparent"
-                            BorderThickness="0"
-                            CornerRadius="30"
-                            Width="30"
-                            Height="30"
-                            HorizontalAlignment="Left"
-                            VerticalAlignment="Center">
-
-                        <Image HorizontalAlignment="Left"
-                                VerticalAlignment="Center"
-                                Width="20"
-                                Source="SCS/IMG/Casita.png" 
-                                Margin="5,0,0,0" />
-
-                    </Border>
-                </Button>
                 <!--#endregion-->
 
 

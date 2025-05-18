@@ -52,6 +52,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scs/img/menu.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scs/img/minimizar.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scs/img/regreso.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scs/img/salir.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("scs/img/user.png")]
 
 

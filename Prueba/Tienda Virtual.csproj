@@ -54,6 +54,7 @@
     <None Remove="SCS\IMG\Menu.png" />
     <None Remove="SCS\IMG\Minimizar.png" />
     <None Remove="SCS\IMG\Regreso.png" />
+    <None Remove="SCS\IMG\salir.png" />
     <None Remove="SCS\IMG\User.png" />
   </ItemGroup>
 
@@ -191,6 +192,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SCS\IMG\Regreso.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SCS\IMG\salir.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="SCS\IMG\User.png">

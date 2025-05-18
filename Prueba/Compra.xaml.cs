@@ -91,6 +91,7 @@ namespace Tienda_Virtual
 
         }
 
+        // Finalizar Compra Botón
         private void BtnFinalizar(object sender, RoutedEventArgs e)
         {
 

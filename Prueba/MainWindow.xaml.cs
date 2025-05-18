@@ -82,10 +82,16 @@ namespace Tienda_Virtual
 
         private void BtnCuenta_Click(object sender, RoutedEventArgs e)
         {
-            InicioSesion inicioSesion = new InicioSesion();
-
-            this.Close();
-            inicioSesion.Show();
+            MessageBoxResult option = MessageBox.Show("¿Desea salir de su sesión?", "Salir", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (option == MessageBoxResult.Yes)
+            {
+                InicioSesion inicioSesion = new InicioSesion();
+                this.Close();
+                inicioSesion.Show();
+            }
+            else
+            {
+            }
         }
 
 

@@ -43,7 +43,7 @@ namespace Tienda_Virtual
         {
             NombreProductoLabel.Text = _producto.NombreProducto;
             lblDescripcion.Text = _producto.Descripcion;
-            lblPrecio.Text = $"Precio: {_producto.Precio}";
+            lblPrecio.Text = $"Precio: ${_producto.Precio}";
             try
             {
                 if (!string.IsNullOrEmpty(_producto.RutaImagen))

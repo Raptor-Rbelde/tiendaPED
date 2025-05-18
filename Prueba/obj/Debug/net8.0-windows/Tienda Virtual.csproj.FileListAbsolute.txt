@@ -909,3 +909,4 @@ C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\tec
 C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\teclado_k630.jpg
 C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\teclado_razerblackwidow.jpg
 C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\ImagenesProductos\teclado_xpg.jpg
+C:\Users\Ludwing\TiendaPed\Prueba\bin\Debug\net8.0-windows\SCS\IMG\salir.png

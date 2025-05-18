@@ -157,13 +157,15 @@
                             Width="30"
                             Height="30"
                             HorizontalAlignment="Left"
-                            VerticalAlignment="Center">
-
-                        <Image HorizontalAlignment="Center"
-                               VerticalAlignment="Top"
-                               Width="16"
-                               Source="SCS/IMG/User.png" Margin="0,6,0,0"/>
+                            VerticalAlignment="Top">
+                        <Image HorizontalAlignment="Left"
+                            VerticalAlignment="Center"
+                            Width="20"
+                            Source="/SCS/IMG/salir.png" 
+                            Margin="4,0,0,0" />
                     </Border>
+
+
                 </Button>
                 <!--#endregion-->
 
