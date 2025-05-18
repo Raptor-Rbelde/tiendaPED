@@ -268,21 +268,11 @@
                 </Grid.RowDefinitions>
 
                 <!-- Correo Electrónico -->
-                <TextBox x:Name="txtUsuario" 
-                         Height="30" 
-                         BorderBrush="Black" 
-                         BorderThickness="1" 
-                         Margin="0,57,0,102" />
-
-                <TextBlock Text="User:" 
-                           FontSize="14" 
-                           Foreground="Black" 
-                           Margin="0,36,0,129"/>
 
                 <TextBlock Text=" Correo electrónico:" 
                            FontSize="14" 
                            Foreground="Black" 
-                           Margin="-2,98,2,70"/>
+                           Margin="-10,34,10,134"/>
 
 
                 <!-- Botón Crear Cuenta -->
@@ -301,16 +291,16 @@
                 <TextBlock Text=" Contraseña:" 
                     FontSize="14" 
                     Foreground="Black" 
-                    Margin="-2,155,2,13"/>
-                <PasswordBox x:Name="txtPassword_Copiar" 
+                    Margin="-2,119,2,49"/>
+                <PasswordBox x:Name="txtPassword" 
                     Height="30" 
                     BorderBrush="Black" 
-                    BorderThickness="1" Margin="0,174,0,64" Grid.RowSpan="6"/>
-                <TextBox x:Name="txtUsuario_Copiar" 
+                    BorderThickness="1" Margin="-2,145,2,14"/>
+                <TextBox x:Name="txtCorreo" 
                     Height="30" 
                     BorderBrush="Black" 
                     BorderThickness="1" 
-                    Margin="0,118,0,41" />
+                    Margin="-2,64,2,95" />
             </Grid>
 
 

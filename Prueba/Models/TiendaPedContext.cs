@@ -29,7 +29,7 @@ public partial class TiendaPedContext : DbContext
     {
         modelBuilder.Entity<Factura>(entity =>
         {
-            entity.HasKey(e => e.IdFactura).HasName("PK_IdFactura");
+            entity.HasKey(e => e.IdFactura).HasName("PK__Factura__50E7BAF1A027DDC0");
 
             entity.ToTable("Factura");
 
@@ -50,13 +50,16 @@ public partial class TiendaPedContext : DbContext
 
         modelBuilder.Entity<Producto>(entity =>
         {
-            entity.HasKey(e => e.IdProducto).HasName("PK_IdProducto");
+            entity.HasKey(e => e.IdProducto).HasName("PK__Producto__0988921035613BC3");
 
             entity.ToTable("Producto");
 
             entity.HasIndex(e => new { e.IdProducto, e.NombreProducto }, "UQ_IdProducto_NombreProducto").IsUnique();
 
             entity.Property(e => e.IdProducto).ValueGeneratedNever();
+            entity.Property(e => e.Categoria)
+                .HasMaxLength(50)
+                .IsUnicode(false);
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(200)
                 .IsUnicode(false);
@@ -75,13 +78,12 @@ public partial class TiendaPedContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK_IdUsuario");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__5B65BF97CD6AF0FF");
 
             entity.ToTable("Usuario");
 
-            entity.HasIndex(e => e.CorreoUsuario, "UC_CorreoUser").IsUnique();
+            entity.HasIndex(e => e.CorreoUsuario, "UQ__Usuario__365498783DFCEADA").IsUnique();
 
-            entity.Property(e => e.IdUsuario).ValueGeneratedNever();
             entity.Property(e => e.Contrasenia)
                 .HasMaxLength(50)
                 .IsUnicode(false);

@@ -10,11 +10,23 @@
 
   <ItemGroup>
     <None Remove="ImagenesProductos\audifonos_bluetooth.jpg" />
+    <None Remove="ImagenesProductos\audifonos_g535.jpg" />
+    <None Remove="ImagenesProductos\audifonos_g733.jpg" />
+    <None Remove="ImagenesProductos\audifonos_razerbarracuda.jpg" />
+    <None Remove="ImagenesProductos\audifonos_skullcandypro.jpg" />
     <None Remove="ImagenesProductos\cargador_universal.jpg" />
     <None Remove="ImagenesProductos\disco1tb.jpg" />
     <None Remove="ImagenesProductos\hub_usb.jpg" />
+    <None Remove="ImagenesProductos\laptop_acernitro.jpg" />
     <None Remove="ImagenesProductos\laptop_dell.jpg" />
+    <None Remove="ImagenesProductos\laptop_hpvictus.jpg" />
+    <None Remove="ImagenesProductos\laptop_vector16.jpg" />
+    <None Remove="ImagenesProductos\laptop_zephyrus.jpg" />
     <None Remove="ImagenesProductos\monitor24.jpg" />
+    <None Remove="ImagenesProductos\monitor_278.jpg" />
+    <None Remove="ImagenesProductos\monitor_g271.jpg" />
+    <None Remove="ImagenesProductos\monitor_g274f.jpg" />
+    <None Remove="ImagenesProductos\monitor_mag271.jpg" />
     <None Remove="ImagenesProductos\mouse_hyperx.jpg" />
     <None Remove="ImagenesProductos\mouse_logitech.png" />
     <None Remove="ImagenesProductos\mouse_redragon.jpg" />
@@ -22,8 +34,17 @@
     <None Remove="ImagenesProductos\pad_mouse.jpg" />
     <None Remove="ImagenesProductos\routerwifi6.jpg" />
     <None Remove="ImagenesProductos\sillaredragon.jpg" />
+    <None Remove="ImagenesProductos\silla_aerocool.jpg" />
+    <None Remove="ImagenesProductos\silla_aerocoolthunder.jpg" />
+    <None Remove="ImagenesProductos\silla_iskur.jpg" />
+    <None Remove="ImagenesProductos\silla_thunderx3.jpg" />
     <None Remove="ImagenesProductos\soporte_laptop.jpg" />
+    <None Remove="ImagenesProductos\teclado_g915.jpg" />
+    <None Remove="ImagenesProductos\teclado_k616.jpg" />
+    <None Remove="ImagenesProductos\teclado_k630.jpg" />
     <None Remove="ImagenesProductos\teclado_mecanico.jpg" />
+    <None Remove="ImagenesProductos\teclado_razerblackwidow.jpg" />
+    <None Remove="ImagenesProductos\teclado_xpg.jpg" />
     <None Remove="ImagenesProductos\usb64gb.jpg" />
     <None Remove="ImagenesProductos\webcamhd.png" />
     <None Remove="SCS\IMG\Carrito.png" />
@@ -37,10 +58,46 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="ImagenesProductos\audifonos_g535.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\audifonos_g733.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\audifonos_razerbarracuda.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\audifonos_skullcandypro.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="ImagenesProductos\cargador_universal.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ImagenesProductos\hub_usb.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\laptop_acernitro.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\laptop_hpvictus.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\laptop_vector16.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\laptop_zephyrus.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\monitor_278.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\monitor_g271.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\monitor_g274f.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\monitor_mag271.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ImagenesProductos\mouse_redragon.jpg">
@@ -76,10 +133,37 @@
     <Content Include="ImagenesProductos\routerwifi6.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ImagenesProductos\silla_aerocool.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\silla_aerocoolthunder.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\silla_iskur.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\silla_thunderx3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="ImagenesProductos\soporte_laptop.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ImagenesProductos\teclado_g915.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\teclado_k616.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\teclado_k630.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="ImagenesProductos\teclado_mecanico.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\teclado_razerblackwidow.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImagenesProductos\teclado_xpg.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="ImagenesProductos\usb64gb.jpg">

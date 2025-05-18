@@ -296,7 +296,7 @@
                        Margin="0,0,0,10" />
 
                         <!-- Panel Horizontal para recomendaciones -->
-                        <Border BorderBrush="Black" BorderThickness="2" Padding="5" Margin="10">
+                        <Border BorderBrush="Black" BorderThickness="0.5" Padding="5" Margin="10">
                             <WrapPanel x:Name="PanelRecomendados" 
                         Orientation="Horizontal" 
                         HorizontalAlignment="Center" 
@@ -313,7 +313,7 @@
                        Margin="0,100,0,10" />
 
                         <!-- Panel Horizontal para historial -->
-                        <Border BorderBrush="Black" BorderThickness="2" Padding="5" Margin="10">
+                        <Border BorderBrush="Black" BorderThickness="0.5" Padding="5" Margin="10">
 
                             <WrapPanel x:Name="PanelHistorial"
                        Orientation="Horizontal"
